@@ -4,6 +4,7 @@
     <Sectors>
       <Sector Name="ACW"/>
       <Sector Name="ACE"/>
+      <Sector Name="ABA"/>
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA"/>
