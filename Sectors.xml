@@ -2,6 +2,7 @@
 <Sectors>
   <Sector FullName="Addis West" Frequency="125.100" Callsign="HAAA_1_CTR" Name="ACW">
     <Volumes>HAAA_W</Volumes>
+    <ResponsibleSectors>HAAA_E</ResponsibleSectors>
   </Sector>
   <Sector FullName="Addis East" Frequency="125.200" Callsign="HAAA_2_CTR" Name="ACE">
     <Volumes>HAAA_E</Volumes>
