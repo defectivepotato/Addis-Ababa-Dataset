@@ -7,9 +7,8 @@
       <Sector Name="ABA"/>
     </Sectors>
     <Maps>
-      <Map Name="ALL_CTA"/>
-      <Map Name="ALL_SECTORS"/>
-      <Map Name="COAST_ALL"/>
+      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
+      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true"/>
@@ -23,6 +22,28 @@
     <ControllerInfo>
       <Line>"Addis Control"</Line>
       <Line>Covering Ethiopia and Djibouti when local ATC offline</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Bole Approach" Type="ASD" DefaultCenter="+08.975042+038.799400" DefaultRange="300" VisibilityRange="100">
+    <Sectors>
+      <Sector Name="ABA"/>
+    </Sectors>
+    <Maps>
+      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
+      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true"/>
+      <Window Type="State" State="Announced" Visible="true"/>
+      <Window Type="State" State="Preactive" Visible="true"/>
+    </Strips>
+    <ArrivalLists>
+      <Airport Name="HAAB"/>
+    </ArrivalLists>
+    <CFL QuickLevel="24000"/>
+    <ControllerInfo>
+      <Line>"Bole Approach"</Line>
+      <Line>Monitor ATIS on 128.500</Line>
     </ControllerInfo>
   </Position>
 </Positions>
