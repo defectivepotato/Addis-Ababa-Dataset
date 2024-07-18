@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ATIS>
-<Frequencies>
+  <Frequencies>
     <Frequency Airport="HAAB" Frequency="128.8"/>
+    <Frequency Airport="HDAM" Frequency="126.4"/>
   </Frequencies>
   <Translations>
-   <Translation String="HAAB" Spoken="Bow-leigh"/>
+   <Translation String="HAAB" Spoken="bowley"/>
+   <Translation String="HDAM" Spoken="jeebootey"/>
     <Translation String="ATIS" Spoken="terminal information"/>
 
     <Translation String="A" Spoken="alpha"/>
@@ -177,11 +179,12 @@
 
     <Translation String="SIGMET" Spoken="sig met"/>
 
+    <Translation String="NOTAMS" Spoken="notice to airmen"/>
+
   </Translations>
   <Editor>
-    <Input name="APCH" NameIsSpoken="false" InputType="Edit"/>
+    <Input name="APCH" value="EXP . APCH" NameIsSpoken="false" InputType="Edit"/>
     <Input name="RWY" NameIsSpoken="true" InputType="Edit"/>
-    <Input name="SFC COND" NameIsSpoken="false" InputType="Edit"/>
     <Input name="OPR INFO" NameIsSpoken="false" InputType="Edit"/>
     <Input name="WIND" NameIsSpoken="true" InputType="Edit"/>
     <Input name="VIS" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true"/>
@@ -189,7 +192,7 @@
     <Input name="CLD" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true"/>
     <Input name="TMP" NameIsSpoken="true" InputType="Edit"/>
     <Input name="QNH" NameIsSpoken="true" InputType="Edit"/>
-    <Input name="SIGWX" NameIsSpoken="false" InputType="Edit" NumbersSpokenGrouped="true"/>
-    <Input name="OFCW_NOTIFY" value="ground or approach" InputType="Edit"/>
+    <Input name="NOTAMS" NameIsSpoken="false" InputType="Edit" NumbersSpokenGrouped="true"/>
+    <Input name="OFCW_NOTIFY" value="ATC" InputType="Edit"/>
   </Editor>
 </ATIS>
