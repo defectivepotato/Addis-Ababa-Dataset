@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Radars>
+   <Radar Name="Tahiti TAR" Type="PRI" Elevation="28" MaxRange="50" LatLong="-173324.000-1493641.000" />
+   <Radar Name="Mt Marau" Type="SSR_ModeS" Elevation="4500" MaxRange="1450"  LatLong="-173619.944-1493215.504" />
+   <Radar Name="Tahiti ADS-C" Type="ADSB" Elevation="34500" MaxRange="7500" LatLong="-173619.944-1493215.504" />
+   <Radar Name="Bora Bora" Type="ADSB" Elevation="54" MaxRange="255" LatLong="-162637.000-1514509.000" />
+   <Radar Name="Fakarava" Type="ADSB" Elevation="54" MaxRange="255" LatLong="-160309.000-1453911.000" />
+   <Radar Name="Hao" Type="ADSB" Elevation="93" MaxRange="255" LatLong="-180351.000-1405726.000" />
+   <Radar Name="Hiva Ova" Type="ADSB" Elevation="1492" MaxRange="255" LatLong="-094605.000-1390040.000" />
+   <Radar Name="Moorea" Type="ADSB" Elevation="73" MaxRange="255" LatLong="-172922.000-1494544.000" />
+   <Radar Name="Napuka" Type="ADSB" Elevation="50" MaxRange="255" LatLong="-141037.000-1411601.000" />
+   <Radar Name="Raiatea" Type="ADSB" Elevation="47" MaxRange="255" LatLong="-164323.000-1512801.000" />
+   <Radar Name="Rangiaroa" Type="ADSB" Elevation="58" MaxRange="255" LatLong="-145719.000-1473926.000" />
+   <Radar Name="Totegegie" Type="ADSB" Elevation="58" MaxRange="255" LatLong="-230458.000-1345314.000" />
+   <Radar Name="Tubai" Type="ADSB" Elevation="62" MaxRange="255" LatLong="-322211.000-1493147.000" />
+   <Radar Name="Tureia" Type="ADSB" Elevation="32" MaxRange="255" LatLong="-204648.000-1383401.000" />
+   <Radar Name="Fua'Amotu" Type="ADSB" Elevation="129" MaxRange="255" LatLong="-211430.700-1750825.590" />
+   <Radar Name="Vava'u" Type="ADSB" Elevation="233" MaxRange="255" LatLong="-183508.090-1735804.960" />
+   <Radar Name="Faleolo" Type="ADSB" Elevation="217" MaxRange="255" LatLong="-134954.620-1715952.850" />
+   <Radar Name="Cassidy" Type="ADSB" Elevation="150" MaxRange="255" LatLong="+015930.000-1572130.000" />
+   <Radar Name="Rarotonga" Type="ADSB" Elevation="506" MaxRange="255" LatLong="-211204.520-1594756.560" />
+   <Radar Name="Aitutaki" Type="ADSB" Elevation="405" MaxRange="255" LatLong="-184951.970-1594550.490" />
+   <Radar Name="Rotuma Fiji" Type="ADSB" Elevation="150" MaxRange="255" LatLong="-123008.298+1770420.845" />
+   <Radar Name="Delaikoro Labasa Fiji" Type="ADSB" Elevation="100" MaxRange="255" LatLong="-163513.117+1791851.858" />
+   <Radar Name="Matei Fiji" Type="ADSB" Elevation="100" MaxRange="255" LatLong="-164130.401-1795239.965" />
+   <Radar Name="Lakeba Fiji" Type="ADSB" Elevation="100" MaxRange="255" LatLong="-181216.240-1784845.814" /> 
+   <Radar Name="Nausori Tower Fiji" Type="ADSB" Elevation="50" MaxRange="255" LatLong="-180244.603+1783334.510" />
+   <Radar Name="Nadi Tower Fiji" Type="ADSB" Elevation="50" MaxRange="255" LatLong="-174531.835+1772646.680" />
+   <Radar Name="Bauerfield Vanuatu" Type="ADSB" Elevation="50" MaxRange="255" LatLong="-174157.460+1681911.238" />
+   <Radar Name="Santo Pekoa Vanuatu" Type="ADSB" Elevation="50" MaxRange="255" LatLong="-153020.653+1671316.750" />
+   <Radar Name="Whitegrass Vanuatu" Type="ADSB" Elevation="50" MaxRange="255" LatLong="-192717.696+1691324.017" />
+   <Radar Name="Honiara" Type="ADSB" Elevation="520" MaxRange="255" LatLong="-092548.000+1600254.000" />
+   <Radar Name="Nauru" Type="ADSB" Elevation="203" MaxRange="255" LatLong="-003240.920+1665501.680" />
+   <Radar Name="Noumea" Type="ADSB" Elevation="51" MaxRange="255" LatLong="-220052.000+1661247.000" />
+   <Radar Name="Magenta" Type="ADSB" Elevation="9" MaxRange="255" LatLong="-221530.000+1662822.000" />
+   <Radar Name="Auckland" Type="PRI" Elevation="123" MaxRange="50" LatLong="-370022.745+1744720.144" />
+   <Radar Name="Christchurch" Type="PRI" Elevation="121" MaxRange="50" LatLong="-432933.666+1723120.460" />
+   <Radar Name="Hawkins Hill" Type="PRI" Elevation="1585" MaxRange="50" LatLong="-411947.492+1744332.081" />
+   <Radar Name="Te Weraiti" Type="SSR_ModeS" Elevation="2444" MaxRange="255" LatLong="-374923.257+1755424.592" />
+   <Radar Name="Ballance" Type="SSR_ModeS" Elevation="1640" MaxRange="255" LatLong="-402401.915+1754356.870" />
+   <Radar Name="Hawkins Hill" Type="SSR_ModeS" Elevation="1585" MaxRange="255" LatLong="-411947.492+1744332.081" />
+   <Radar Name="Mt Robertson" Type="SSR_ModeS" Elevation="3386" MaxRange="255" LatLong="-412053.466+1740120.266" />
+   <Radar Name="Cass Peak" Type="SSR_ModeS" Elevation="1709" MaxRange="255" LatLong="-433809.478+1723726.742" />
+   <Radar Name="Rua o te Whenua" Type="ADSB" Elevation="1444" MaxRange="255" LatLong="-365527.390+1743312.650" />
+   <Radar Name="Te Weraiti" Type="ADSB" Elevation="2444" MaxRange="255" LatLong="-374923.257+1755424.592" />
+   <Radar Name="Ballance" Type="ADSB" Elevation="1640" MaxRange="255" LatLong="-402401.915+1754356.870" />
+   <Radar Name="Hawkins Hill" Type="ADSB" Elevation="1585" MaxRange="255" LatLong="-411947.492+1744332.081" />
+   <Radar Name="Mt Robertson" Type="ADSB" Elevation="3386" MaxRange="255" LatLong="-412053.466+1740120.266" />
+   <Radar Name="Christchurch Tower" Type="ADSB" Elevation="252" MaxRange="255" LatLong="-432918.578+1723225.433" />
+   <Radar Name="Cass Peak" Type="ADSB" Elevation="1709" MaxRange="255" LatLong="-433809.478+1723726.742" />
+   <Radar Name="Cardrona" Type="ADSB" Elevation="5410" MaxRange="255" LatLong="-432933.666+1685655.993" />
+   <Radar Name="Coronet Peak" Type="ADSB" Elevation="5256" MaxRange="255" LatLong="-445459.501+1684420.875" />
+   <Radar Name="Mt Nicholas" Type="ADSB" Elevation="4704" MaxRange="255" LatLong="-450744.587+1682352.159" />
+   <Radar Name="Obelisk" Type="ADSB" Elevation="5521" MaxRange="255" LatLong="-451921.770+1691227.252" />
+</Radars>
+

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+
+  <Sector FullName="Auckland Oceanic" Frequency="128.900" Callsign="NZZO_FSS" Name="NZZO">
+    <Volumes>NZZO</Volumes>
+  </Sector>
+  <Sector FullName="Nadi Oceanic" Frequency="123.600" Callsign="NFFF_FSS" Name="NFFF">
+    <Volumes>NFFF</Volumes>
+  </Sector>
+  <Sector FullName="Oakland Oceanic East" Frequency="131.950" Callsign="KZAK-E_FSS" Name="KZAK-E">
+    
+  </Sector>
+  <Sector FullName="Oakland Oceanic West" Frequency="122.500" Callsign="KZAK-W_FSS" Name="KZAK-W">
+   
+  </Sector>
+  <Sector FullName="McMurdo Oceanic" Frequency="128.700" Callsign="NZCM_FSS" Name="NZCM">
+    <Volumes>NZCM</Volumes>
+  </Sector>
+  <Sector FullName="Williams Tower" Frequency="126.200" Callsign="NZWD_TWR" Name="WD ADC">
+    <Volumes>NZWD_CTZ</Volumes>
+  </Sector>
+  <Sector FullName="Tahiti Oceanic" Frequency="125.500" Callsign="NTTT_FSS" Name="NTTT">
+    <Volumes>NTTT,NTTL</Volumes>
+    <ResponsibleSectors>TAC,TAA</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Tahiti Control" Frequency="134.700" Callsign="NTTT_CTR" Name="TAC">
+    <Volumes>NTTT_CTL,NTTC</Volumes>
+    <ResponsibleSectors>TAA,TB ADC,TR ADC,TH ADC</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Tahiti Approach" Frequency="121.300" Callsign="NTAA_APP" Name="TAA">
+    <Volumes>NTAA_TMA</Volumes>
+    <ResponsibleSectors>TA ADC</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Tahiti Tower" Frequency="118.100" Callsign="NTAA_TWR" Name="TA ADC">
+    <Volumes>NTAA_CTZ</Volumes>
+    <ResponsibleSectors>TM ADC</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Tahiti Ground" Frequency="121.900" Callsign="NTAA_GND" Name="TA SMC"/>
+  <Sector FullName="Bora Bora Tower" Frequency="118.900" Callsign="NTTB_TWR" Name="TB ADC">
+    <Volumes>NTTB_CTZ</Volumes>
+  </Sector>
+  <Sector FullName="Raiatea Tower" Frequency="118.500" Callsign="NTTR_TWR" Name="TR ADC">
+    <Volumes>NTTR_CTZ</Volumes>
+  </Sector>
+  <Sector FullName="Huahine Tower" Frequency="119.300" Callsign="NTTH_TWR" Name="TH ADC">
+    <Volumes>NTTH_CTZ</Volumes>
+  </Sector>
+  <Sector FullName="Moorea Tower" Frequency="118.700" Callsign="NTTM_TWR" Name="TM ADC">
+    <Volumes>NTTM_CTZ</Volumes>
+  </Sector>
+  <Sector FullName="Rangiroa Tower" Frequency="118.300" Callsign="NTTG_TWR" Name="TG ADC">
+    <Volumes>NTTG_CTZ</Volumes>
+  </Sector>
+  <Sector FullName="Hao Tower" Frequency="119.100" Callsign="NTTO_TWR" Name="TO ADC">
+    <Volumes>NTTO_CTZ</Volumes>
+  </Sector>
+  <Sector FullName="Rarotonga Control" Frequency="121.9" Callsign="NCRG_APP" Name="RGA">
+    <Volumes>NCRG_CTA2,NCRG_CTA3,NCRG_CTA4</Volumes>
+  </Sector>
+  <Sector FullName="Rarotonga Tower" Frequency="118.100" Callsign="NCRG_TWR" Name="RG ADC">
+    <Volumes>NCRG_CTZ</Volumes>
+  </Sector>
+  <Sector FullName="Fua 'amotu Approach" Frequency="118.500" Callsign="NFTF_APP" Name="TBUA">
+    <Volumes>NFTF_TMA1,NFTF_TMA2,NFTF_TMA3</Volumes>
+  </Sector>
+  <Sector FullName="Fua ' amotu Tower" Frequency="118.500" Callsign="NFTF_TWR" Name="TBU ADC">
+    <Volumes>NFTF_CTZ</Volumes>
+  </Sector>
+  <Sector FullName="Fua 'amotu Ground" Frequency="121.900" Callsign="NFTF_GND" Name="TBU SMC"/>
+  <Sector FullName="Vava 'u Tower" Frequency="118.100" Callsign="NFTV_TWR" Name="TV ADC">
+    <Volumes>NFTV_CTZ</Volumes>
+  </Sector>
+  <Sector FullName="Niue Tower" Frequency="118.100" Callsign="NIUE_TWR" Name="NU ADC">
+    <Volumes>NIUE_CTZ</Volumes>
+  </Sector>
+  <Sector FullName="Faleolo Approach" Frequency="126.900" Callsign="NSFA_APP" Name="FAA">
+    <Volumes>NSFA_CTA</Volumes>
+  </Sector>
+  <Sector FullName="Faleolo Tower" Frequency="118.100" Callsign="NSFA_TWR" Name="FA ADC">
+    <Volumes>NSFA_CTZ</Volumes>
+  </Sector>
+  <Sector FullName="Pago Pago Tower" Frequency="122.900" Callsign="NSTU_TWR" Name="TUT ADC">
+    <Volumes>NSTU_CTZ</Volumes>
+  </Sector>
+  
+  <!-- Sectors for handoff -->
+    <Sector FullName="Tasman Oceanic" Frequency="128.600" Callsign="BN-TSN_FSS" Name="TSN"/>
+  <Sector FullName="Lord Howe Oceanic" Frequency="124.600" Callsign="BN-HWE_FSS" Name="HWE"/>
+  <Sector FullName="Flinders Oceanic" Frequency="129.500" Callsign="BN-FLD_FSS" Name="FLD"/>
+  <Sector FullName="Coral Oceanic" Frequency="129.600" Callsign="BN-COL_FSS" Name="COL"/>
+  <Sector FullName="Indian Oceanic" Frequency="122.400" Callsign="ML-IND_FSS" Name="IND"/>
+  <Sector FullName="Indian South Oceanic" Frequency="123.200" Callsign="ML-INS_FSS" Name="INS"/>
+  <Sector FullName="Indian East Oceanic" Frequency="123.650" Callsign="ML-INE_FSS" Name="INE"/>
+  <Sector Fullname="Kauai Center" Frequency="126.500" Callsign="HNL_02_CTR" Name="HNLK"/>
+  <Sector Fullname="Molokai Center" Frequency="124.100" Callsign="HNL_03_CTR" Name="HNLM"/>
+  <Sector Fullname="Lanai Center" Frequency="119.300" Callsign="HNL_04_CTR" Name="HNLL"/>
+  <Sector Fullname="Big Island Center" Frequency="126.000" Callsign="HNL_05_CTR" Name="HNLB"/>
+  <Sector Fullname="Honolulu West Center" Frequency="119.900" Callsign="HNL_06_CTR" Name="HNLW"/>
+  <Sector Fullname="Honolulu East Center" Frequency="126.600" Callsign="HNL_07_CTR" Name="HNLE"/>
+  <Sector Fullname="Honolulu West Center" Frequency="127.600" Callsign="HNL_08_CTR" Name="HNLW"/>
+  <Sector FullName="Port Moresby Area" Frequency="123.400" Callsign="AYPM_CTR" Name="AYPM"/>
+  <Sector FullName="Port Moresby Approach" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA"/>
+  <Sector FullName="Port Moresby Tower" Frequency="118.100" Callsign="AYPY_TWR" Name="AYPY ADC"/>
+  <Sector FullName="Port Moresby Ground" Frequency="121.700" Callsign="AYPY_GND" Name="AYPY SMC"/>
+  <Sector FullName="Nadzab Approach" Frequency="118.600" Callsign="AYNZ_APP" Name="AYNZ"/>
+  <Sector FullName="Nadzab Tower" Frequency="121.700" Callsign="AYNZ_TWR" Name="AYNZ ADC"/>
+  <Sector FullName="Wewak Tower" Frequency="118.500" Callsign="AYWK_TWR" Name="AYWK ADC"/>
+  <Sector FullName="Tokua Tower" Frequency="118.200" Callsign="AYTK_TWR" Name="AYTK ADC"/>
+  <Sector FullName="Madang Tower" Frequency="118.100" Callsign="AYMD_TWR" Name="AYMD ADC"/>
+  <Sector FullName="Goroka Tower" Frequency="118.700" Callsign="AYGA_TWR" Name="AYGA ADC"/>
+  <Sector FullName="Mt Hagen Tower" Frequency="120.500" Callsign="AYMH_TWR" Name="AYMH ADC"/>
+  <Sector FullName="Nadi Approach" Frequency="119.100" Callsign="NFFN_APP" Name="NFFNA"/>
+  <Sector FullName="Nadi Tower" Frequency="118.100" Callsign="NFFN_TWR" Name="NFFN ADC"/>
+  <Sector FullName="Nausori Approach" Frequency="119.700" Callsign="NFNA_APP" Name="NFNAA"/>
+  <Sector FullName="Nausori Tower" Frequency="119.600" Callsign="NFNA_TWR" Name="NFNA ADC"/>
+  <Sector FullName="Noumea Approach" Frequency="128.300" Callsign="NWWW_APP" Name="NWWWA"/>
+  <Sector FullName="Noumea Tower" Frequency="118.100" Callsign="NWWW_TWR" Name="NWWW ADC"/>
+  <Sector FullName="Magenta Tower" Frequency="118.300" Callsign="NWWM_TWR" Name="NWWM ADC"/>
+  <Sector FullName="Port Vila Centre" Frequency="120.700" Callsign="NVVV_CTR" Name="NVVV"/>
+  <Sector FullName="Port Vila Tower" Frequency="118.300" Callsign="NVVV_TWR" Name="NVVV ADC"/>
+  <Sector FullName="KWA Kwajalein Approach" Frequency="126.200" Callsign="PKWA_APP" Name="PKWAA"/>
+  <Sector FullName="KWA Bucholz Tower" Frequency="118.800" Callsign="PKWA_TWR" Name="PKWA ADC"/>
+  <Sector FullName="KWA Bucholz SMC" Frequency="121.900" Callsign="PKWA_GND" Name="PKWA SMC"/>
+</Sectors>

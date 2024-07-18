@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AlertParameters>
+  <ConflictAlerts>
+    <STCA Name="TMA" LateralNM="2.1" SecondsLookahead="60" AlertPriority="1">
+      <Vertical LowerLevel="0" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
+      <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
+      <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
+      <Volumes>NTAA_CTZ,NTAA_TMA,NTTB_CTZ,NTTR_CTZ,NTTH_CTZ,NTTG_CTZ,NTTO_CTZ,NTTM_CTZ,NCRG_CTLZ,NFTF_CTZ,NSFA_CTZ,NSTU_CTZ</Volumes>
+    </STCA>
+    <STCA Name="ENR" LateralNM="4.8" SecondsLookahead="90" AlertPriority="1">
+      <Vertical LowerLevel="0" UpperLevel="24500" Height="600" HeightWithRVSM="600"/>
+      <Vertical LowerLevel="24501" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
+      <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
+      <Volumes>NTAA_CTR,NTAA_CTL,NCRG_CTA2,NCRG_CTA3,NCRG_CTA4,NFTF_TMA1,NFTF_TMA2,NFTF_TMA3,NSFZ_CTA</Volumes>
+    </STCA>
+    <MTCA Name="ENR" LateralNM="5.0" SecondsLookahead="300" AlertPriority="3">
+      <Vertical LowerLevel="24500" UpperLevel="28000" Height="600" HeightWithRVSM="600"/>
+      <Vertical LowerLevel="28001" UpperLevel="41000" Height="1600" HeightWithRVSM="600"/>
+      <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
+     <Volumes>AGGG,ANAU,AYPM,NFFF,NZCM,NZZO,NTTT,TSN,COL,FLD,HWE</Volumes>
+    </MTCA>
+  </ConflictAlerts>
+  <EMG SSRCode="7700" AlertPriority="2"/>
+  <RAD SSRCode="7600" AlertPriority="2"/>
+  <RAM WaypointNodeRadius="14" CorridorWidth="14" AirportRadius="20" AlertPriority="3"/>
+  <MPR SecondsAfterETO="180" AlertPriority="4"/>
+  <ETO SecondsDifferentFromSystem="180" AlertPriority="4"/>
+  <DAIW SecondsLookahead="60" AlertPriority="1"/>
+  <CLAM AltitudeDeviation="200" MinutesMaintaining="15" AlertPriority="3"/>
+  <MSAW Height="600" SecondsLookahead="60" AlertPriority="1"/>
+</AlertParameters>

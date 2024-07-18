@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<SSRAssignment>
+  <Bin>
+    <Codes Start="E013.19.32.275" End="S005.40.08.060">
+      <Rule Sector="S009.04.58.345" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="E029.20.44.857" End="N015.45.11.898">
+      <Rule Sector="N014.32.07.755" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="W008.02.51.779" End="N015.09.34.030">
+      <Rule Sector="N032.37.07.324" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="E063.42.32.503" End="S022.28.53.743">
+      <Rule Sector="S025.13.09.915" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="W015.03.03.829" End="N003.20.54.807">
+      <Rule Sector="N007.13.15.162" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="E030.14.00.450" End="N032.52.03.987">
+      <Rule Sector="N026.32.11.050" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="N035.05.55.784" End="E038.57.38.298">
+      <Rule Sector="5577" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="N008.58.37.298" End="E038.48.08.663">
+      <Rule Sector="0000" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="N008.58.37.298" End="E038.48.08.663">
+      <Rule Sector="0000" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="E045.17.34.937" End="N008.26.22.142">
+      <Rule Sector="N002.00.24.153" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="N002.00.24.153" End="E045.17.34.937">
+      <Rule Sector="0000" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="N017.31.07.235" End="E038.56.16.788">
+      <Rule Sector="0000" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="N009.31.43.478" End="E031.41.00.041">
+      <Rule Sector="0000" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="E038.51.00.000" End="S003.40.00.000">
+      <Rule Sector="N001.33.00.000" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="N007.43.02.089" End="E030.46.25.185">
+      <Rule Sector="0000" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="N019.24.04.118" End="E037.14.30.210">
+      <Rule Sector="0000" />
+    </Codes>
+  </Bin>
+  <Bin>
+    <Codes Start="N009.31.43.478" End="E031.41.00.041">
+      <Rule Sector="0000" />
+    </Codes>
+  </Bin>
+</SSRAssignment>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<Sectors>
+  <Sector FullName="AFRC_FSS" Frequency="129.075" Callsign="FSS_0400" Name="S009.04.58.345" />
+  <Sector FullName="AFRE_FSS" Frequency="135.050" Callsign="FSS_0600" Name="N014.32.07.755" />
+  <Sector FullName="AFRN_FSS" Frequency="134.520" Callsign="FSS_0700" Name="N032.37.07.324" />
+  <Sector FullName="AFRS_FSS" Frequency="134.575" Callsign="FSS_0700" Name="S025.13.09.915" />
+  <Sector FullName="AFRW_FSS" Frequency="132.225" Callsign="FSS_0500" Name="N007.13.15.162" />
+  <Sector FullName="GULF_FSS" Frequency="133.650" Callsign="FSS_5501" Name="N026.32.11.050" />
+  <Sector FullName="GULF_W_FSS" Frequency="133.500" Callsign="GULF_FSS" Name="5577" />
+  <Sector FullName="HAAA_1_CTR" Frequency="125.100" Callsign="HAAA_CTR" Name="0000" />
+  <Sector FullName="HAAA_2_CTR" Frequency="125.200" Callsign="HAAA_CTR" Name="0000" />
+  <Sector FullName="HCSM_CTR" Frequency="132.500" Callsign="CTR_0000" Name="N002.00.24.153" />
+  <Sector FullName="HCSM_I_CTR" Frequency="132.525" Callsign="HCSM_CTR" Name="0000" />
+  <Sector FullName="HHAA_1_CTR" Frequency="129.500" Callsign="HHAA_CTR" Name="0000" />
+  <Sector FullName="HJJJ_1_CTR" Frequency="123.900" Callsign="HJJJ_CTR" Name="0000" />
+  <Sector FullName="HKNA_CTR" Frequency="121.300" Callsign="CTR_1701" Name="N001.33.00.000" />
+  <Sector FullName="HSSS_1X_CTR" Frequency="127.300" Callsign="HSSS_CTR" Name="0000" />
+  <Sector FullName="HSSS_1_CTR" Frequency="125.400" Callsign="HSSS_CTR" Name="0000" />
+  <Sector FullName="HSSS_2_CTR" Frequency="125.700" Callsign="HSSS_CTR" Name="0000" />
+</Sectors>
