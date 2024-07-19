@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="Ground_INF" Name="ASMGCS_TAXI_ALL" Priority="0" Center="-2380.8+13390.1">
+    <Label HasLeader="False" Alignment="Center" VerticalAlignment="Middle">
+        <Point Name="A1">+08.975355+038.782549</Point>
+        <Point Name="B1">+08.976646+038.788249</Point>
+        <Point Name="C1">+08.979841+038.798237</Point>
+        <Point Name="G">+08.980645+038.801164</Point>
+        <Point Name="H">+08.980922+038.803330</Point>
+        <Point Name="J">+08.981947+038.807072</Point>
+        <Point Name="K">+08.982829+038.809901</Point>
+        <Point Name="L">+08.983359+038.811702</Point>
+        <Point Name="E">+08.982469+038.815169</Point>
+        <Point Name="N">+08.981690+038.812863</Point>
+        <Point Name="D">+08.980106+038.807445</Point>
+        <Point Name="C">+08.977737+038.798175</Point>
+        <Point Name="B">+08.975036+038.789747</Point>
+        <Point Name="M">+08.973940+038.785849</Point>
+        <Point Name="A">+08.973490+038.783189</Point>
+    </Label>
+  </Map>
+</Maps>
