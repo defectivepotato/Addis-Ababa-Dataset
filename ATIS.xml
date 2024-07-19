@@ -201,20 +201,7 @@
     <Translation String="NOTAMS" Spoken="notice to airmen"/>
 
   </Translations>
-  <Editor Airport="HAAB">
-    <Input name="APCH" value="EXP . APCH" NameIsSpoken="false" InputType="Edit"/>
-    <Input name="RWY" NameIsSpoken="true" InputType="Edit"/>
-    <Input name="OPR INFO" value="RWY 07L CLSD" NameIsSpoken="false" InputType="Edit"/>
-    <Input name="WIND" NameIsSpoken="true" InputType="Edit"/>
-    <Input name="VIS" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true"/>
-    <Input name="WX" NameIsSpoken="false" InputType="Edit"/>
-    <Input name="CLD" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true"/>
-    <Input name="TMP" NameIsSpoken="true" InputType="Edit"/>
-    <Input name="QNH" NameIsSpoken="true" InputType="Edit"/>
-    <Input name="NOTAMS" value="HEAVY BIRD CONC AROUND THE ARPT. PILOTS ARE ADVD TO EXERCISE PRECAUTION DUR TOFF AND LDG." NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true"/>
-    <Input name="OFCW_NOTIFY" value="ATC" InputType="Edit"/>
-  </Editor>
-  <Editor Airport="HDAM">
+  <Editor>
     <Input name="APCH" value="EXP . APCH" NameIsSpoken="false" InputType="Edit"/>
     <Input name="RWY" NameIsSpoken="true" InputType="Edit"/>
     <Input name="OPR INFO" NameIsSpoken="false" InputType="Edit"/>
@@ -224,7 +211,7 @@
     <Input name="CLD" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true"/>
     <Input name="TMP" NameIsSpoken="true" InputType="Edit"/>
     <Input name="QNH" NameIsSpoken="true" InputType="Edit"/>
-    <Input name="NOTAMS" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true"/>
+    <Input name="NOTAMS" value="HEAVY BIRD CONC AROUND THE ARPT. PILOTS ARE ADVD TO EXERCISE PRECAUTION DUR TOFF AND LDG." NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true"/>
     <Input name="OFCW_NOTIFY" value="ATC" InputType="Edit"/>
   </Editor>
 </ATIS>
