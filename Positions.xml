@@ -24,6 +24,7 @@
       <Line>Covering Ethiopia and Djibouti when local ATC offline</Line>
     </ControllerInfo>
   </Position>
+  <Group Name="TMA positions">
   <Position Name="Bole Approach" Type="ASD" DefaultCenter="+08.975042+038.799400" DefaultRange="300" VisibilityRange="100">
     <Sectors>
       <Sector Name="ABA"/>
@@ -41,9 +42,41 @@
       <Airport Name="HAAB"/>
     </ArrivalLists>
     <CFL QuickLevel="24000"/>
+      <AdditionalLevels>8800</AdditionalLevels>
+      <AdditionalLevels>9300</AdditionalLevels>
+      <AdditionalLevels>9800</AdditionalLevels>
+      <AdditionalLevels>12300</AdditionalLevels>
     <ControllerInfo>
       <Line>"Bole Approach"</Line>
       <Line>Monitor ATIS on 128.500</Line>
     </ControllerInfo>
   </Position>
+  </Group>
+  <Group Name="Tower positions">
+  <Position Name="Bole Tower" Type="ASD" DefaultCenter="+08.975042+038.799400" DefaultRange="100" VisibilityRange="50">
+    <Sectors>
+      <Sector Name="AB ADC"/>
+      <Sector Name="AB SMC"/>
+    </Sectors>
+    <Maps>
+      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
+      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+    </Maps>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="HAAB" Visible="true"/>
+    </Strips>
+    <ArrivalLists>
+      <Airport Name="HAAB"/>
+    </ArrivalLists>
+    <CFL QuickLevel="24000"/>
+    <ControllerInfo>
+      <Line>"Bole Tower"</Line>
+      <Line>Monitor ATIS on 128.500</Line>
+    </ControllerInfo>
+    <ControllerInfo Callsign="HAAB_GND">
+      <Line>"Bole Ground"</Line>
+      <Line>Monitor ATIS on 128.500</Line>
+    </ControllerInfo>
+  </Position>
+  </Group>
 </Positions>

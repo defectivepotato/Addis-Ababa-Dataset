@@ -12,9 +12,23 @@
   </Sector>
   <Sector Name="AB ADC" FullName="Bole Tower" Frequency="118.100" Callsign="HAAB_TWR">
     <Volumes>HAAB_CTR</Volumes>
+    <ResponsibleSectors>AB SMC</ResponsibleSectors>
+  </Sector>
+  <Sector Name="AB SMC" FullName="Bole Ground" Frequency="121.900" Callsign="HAAB_GND">
+    <Volumes>HAAB_CTR</Volumes>
+  </Sector>
+  <Sector Name="AX ADC" FullName="Axum Tower" Frequency="118.000" Callsign="HAAX_TWR">
+    <Volumes>HAAX_CTR</Volumes>
+    <ResponsibleSectors>AX SMC</ResponsibleSectors>
+  </Sector>
+  <Sector Name="AX SMC" FullName="Axum Ground" Frequency="121.900" Callsign="HAAX_GND">
+    <Volumes>HAAX_CTR</Volumes>
+  </Sector>
+  <Sector Name="BDA" FullName="Bahir Dar Approach" Frequency="118.300" Callsign="HABD_APP">
+    <Volumes>HABD_TMA</Volumes>
   </Sector>
 
-  <!-- Sectors for handoff -->
+  <!-- Sectors for handoff (!!YET TO BE COMPLETED!!)-->
   <Sector FullName="Africa Central Control" Frequency="129.075" Callsign="AFRC_FSS" Name="AFRC"/>
   <Sector FullName="Africa East Control" Frequency="135.050" Callsign="AFRE_FSS" Name="AFRE"/>
   <Sector FullName="Africa North Control" Frequency="134.520" Callsign="AFRN_FSS" Name="AFRN"/>
