@@ -5,8 +5,8 @@
     <Frequency Airport="HDAM" Frequency="126.4"/>
   </Frequencies>
   <Translations>
-   <Translation String="HAAB" Spoken="bowley"/>
-   <Translation String="HDAM" Spoken="jeebootey"/>
+    <Translation String="HAAB" Spoken="bow-lay"/>
+    <Translation String="HDAM" Spoken="jeebootey"/>
     <Translation String="ATIS" Spoken="terminal information"/>
 
     <Translation String="A" Spoken="alpha"/>
@@ -50,43 +50,62 @@
     <Translation String="GLS" Spoken="G L S"/>
     <Translation String="DME" Spoken="D M E"/>
     <Translation String="RNP" Spoken="R N P"/>
-    <Translation String="RNAV" Spoken="ɑːnævː" Alphabet="IPA" FallbackSpoken="are-navv"/>
-    <Translation String="OPR" Spoken="operational"/>
-    <Translation String="EXP" Spoken="expect"/>
-    <Translation String="EIA" Spoken="expect instrument approach"/>
-    <Translation String="HIRL" Spoken="high intensity runway lighting"/>
-    <Translation String="HIAL" Spoken="high intensity approach lighting"/>
-    <Translation String="OPS" Spoken="operations"/>
-    <Translation String="PROG" Spoken="progress"/>
-    <Translation String="INDEP" Spoken="independent"/>
-    <Translation String="AVBL" Spoken="available"/>
-    <Translation String="REQ" Spoken="request"/>  
-    <Translation String="REQD" Spoken="required"/>  
-    <Translation String="LAHSO" Spoken="land and hold short operations"/>
-    <Translation String="FM" Spoken="from"/>
-    <Translation String="THRU" Spoken="through"/>
-	  <Translation String="CL" Spoken="centre line"/>
-	  <Translation String="PARL" Spoken="parallel"/>
-    <Translation String="ABV" Spoken="above"/>
-    <Translation String="BLW" Spoken="below"/>
-    <Translation String="BTN" Spoken="between"/>
-    <Translation String="DLA" Spoken="delay"/>
-    <Translation String="DLAS" Spoken="delays"/>
-    <Translation String="TWY" Spoken="taxiway"/>
-    <Translation String="TWYS" Spoken="taxiways"/>
-    <Translation String="FREQ" Spoken="frequency"/>
-    <Translation String="ARR" Spoken="arrivals"/>
-    <Translation String="ARRS" Spoken="arrivals"/>
-    <Translation String="DEP" Spoken="departures"/>
-    <Translation String="DEPS" Spoken="departures"/>
-    <Translation String="ACFT" Spoken="aircraft"/>
-    <Translation String="CCT" Spoken="circuit"/>
-    <Translation String="TURB" Spoken="turbulence"/>
-    <Translation String="MOD" Spoken="moderate"/>
-    <Translation String="SEV" Spoken="severe"/>
-    <Translation String="LGT" Spoken="light"/>
-    <Translation String="OTLED" Spoken="OTLEDD"/>
-    <Translation String="DEG" Spoken="degrees"/>
+    <Translation String="RNAV" Spoken="ɑ&#x02D0;næv&#x02D0;" Alphabet="IPA" FallbackSpoken="are-navv" />
+    <Translation String="OPR" Spoken="operational" />
+    <Translation String="EXP" Spoken="expect" />
+    <Translation String="EIA" Spoken="expect instrument approach" />
+    <Translation String="HIRL" Spoken="high intensity runway lighting" />
+    <Translation String="HIAL" Spoken="high intensity approach lighting" />
+    <Translation String="OPS" Spoken="operations" />
+    <Translation String="PROG" Spoken="progress" />
+    <Translation String="INDEP" Spoken="independent" />
+    <Translation String="AVBL" Spoken="available" />
+    <Translation String="REQ" Spoken="request" />  
+    <Translation String="REQD" Spoken="required" />  
+    <Translation String="LAHSO" Spoken="land and hold short operations" />
+    <Translation String="FM" Spoken="from" />
+    <Translation String="THRU" Spoken="through" />
+    <Translation String="CL" Spoken="centre line" />
+    <Translation String="PARL" Spoken="parallel" />
+    <Translation String="ABV" Spoken="above" />
+    <Translation String="BLW" Spoken="below" />
+    <Translation String="BTN" Spoken="between" />
+    <Translation String="DLA" Spoken="delay" />
+    <Translation String="DLAS" Spoken="delays" />
+    <Translation String="TWY" Spoken="taxiway" />
+    <Translation String="TWYS" Spoken="taxiways" />
+    <Translation String="FREQ" Spoken="frequency" />
+    <Translation String="ARR" Spoken="arrivals" />
+    <Translation String="ARRS" Spoken="arrivals" />
+    <Translation String="DEP" Spoken="departures" />
+    <Translation String="DEPS" Spoken="departures" />
+    <Translation String="ACFT" Spoken="aircraft" />
+    <Translation String="CCT" Spoken="circuit" />
+    <Translation String="TURB" Spoken="turbulence" />
+    <Translation String="MOD" Spoken="moderate" />
+    <Translation String="SEV" Spoken="severe" />
+    <Translation String="LGT" Spoken="light" />
+    <Translation String="OTLED" Spoken="OTLEDD" />
+    <Translation String="DEG" Spoken="degrees" />
+    <Translation String="NAVBL" Spoken="not available" /> 
+    <Translation String="SIMUL" Spoken="simultaneous" />
+    <Translation String="OPP" Spoken="opposite" />
+    <Translation String="DIR" Spoken="direction" />
+    <Translation String="RECIP" Spoken="reciprocal" />
+    <Translation String="APRV" Spoken="approval" />
+    <Translation String="NE" Spoken="north east" />
+    <Translation String="PDC" Spoken="pre departute clearance" />
+    <Translation String="TIL" Spoken="until" />
+    <Translation String="HLDG" Spoken="holding" />
+    <Translation String="MINS" Spoken="minutes" />
+    <Translation String="TL" Spoken="transition level" />
+    <Translation String="CONC" Spoken="concentration"/>
+    <Translation String="ARPT" Spoken="airport"/>
+    <Translation String="DUR" Spoken="during"/>
+    <Translation String="TOFF" Spoken="take-off"/>
+    <Translation String="LDG" Spoken="landing"/>
+    <Translation String="ADVD" Spoken="adviced"/>
+    <Translation String="CLSD" Spoken="closed"/>
 
     <Translation String="RWY" Spoken="runway" />
     <Translation String="RWYS" Spoken="runways" />
@@ -182,7 +201,20 @@
     <Translation String="NOTAMS" Spoken="notice to airmen"/>
 
   </Translations>
-  <Editor>
+  <Editor Airport="HAAB">
+    <Input name="APCH" value="EXP . APCH" NameIsSpoken="false" InputType="Edit"/>
+    <Input name="RWY" NameIsSpoken="true" InputType="Edit"/>
+    <Input name="OPR INFO" value="RWY 07L CLSD" NameIsSpoken="false" InputType="Edit"/>
+    <Input name="WIND" NameIsSpoken="true" InputType="Edit"/>
+    <Input name="VIS" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true"/>
+    <Input name="WX" NameIsSpoken="false" InputType="Edit"/>
+    <Input name="CLD" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true"/>
+    <Input name="TMP" NameIsSpoken="true" InputType="Edit"/>
+    <Input name="QNH" NameIsSpoken="true" InputType="Edit"/>
+    <Input name="NOTAMS" value="HEAVY BIRD CONC AROUND THE ARPT. PILOTS ARE ADVD TO EXERCISE PRECAUTION DUR TOFF AND LDG." NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true"/>
+    <Input name="OFCW_NOTIFY" value="ATC" InputType="Edit"/>
+  </Editor>
+  <Editor Airport="HDAM">
     <Input name="APCH" value="EXP . APCH" NameIsSpoken="false" InputType="Edit"/>
     <Input name="RWY" NameIsSpoken="true" InputType="Edit"/>
     <Input name="OPR INFO" NameIsSpoken="false" InputType="Edit"/>
@@ -192,7 +224,7 @@
     <Input name="CLD" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true"/>
     <Input name="TMP" NameIsSpoken="true" InputType="Edit"/>
     <Input name="QNH" NameIsSpoken="true" InputType="Edit"/>
-    <Input name="NOTAMS" NameIsSpoken="false" InputType="Edit" NumbersSpokenGrouped="true"/>
+    <Input name="NOTAMS" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true"/>
     <Input name="OFCW_NOTIFY" value="ATC" InputType="Edit"/>
   </Editor>
 </ATIS>

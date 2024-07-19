@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Positions>
-  <Position Name="Addis Bandbox" Type="ASD" DefaultCenter="+08.975042+038.799400" DefaultRange="1800" VisibilityRange="600">
+  <Position Name="Addis Bandbox" Type="ASD" DefaultCenter="+08.975042+038.799400" DefaultRange="1500" VisibilityRange="600">
     <Sectors>
       <Sector Name="ACW"/>
       <Sector Name="ACE"/>
@@ -10,6 +10,11 @@
       <Map Name="NAVAIDS/NDB_SYMBOLS"/>
       <Map Name="NAVAIDS/VOR_SYMBOLS"/>
     </Maps>
+    <ATIS>
+        <Editor Airport="HAAB" Frequency="128.8" />
+        <Window Airport="HAAB" />
+        <Window Airport="HDAM" />
+      </ATIS>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true"/>
       <Window Type="State" State="Announced" Visible="true"/>
@@ -25,7 +30,7 @@
     </ControllerInfo>
   </Position>
   <Group Name="TMA positions">
-  <Position Name="Bole Approach" Type="ASD" DefaultCenter="+08.975042+038.799400" DefaultRange="300" VisibilityRange="100">
+  <Position Name="Bole Approach" Type="ASD" DefaultCenter="+08.975042+038.799400" DefaultRange="300" VisibilityRange="150">
     <Sectors>
       <Sector Name="ABA"/>
     </Sectors>
@@ -33,6 +38,10 @@
       <Map Name="NAVAIDS/NDB_SYMBOLS"/>
       <Map Name="NAVAIDS/VOR_SYMBOLS"/>
     </Maps>
+    <ATIS>
+        <Editor Airport="HAAB" Frequency="128.8" />
+        <Window Airport="HAAB" />
+      </ATIS>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true"/>
       <Window Type="State" State="Announced" Visible="true"/>
@@ -51,6 +60,32 @@
       <Line>Monitor ATIS on 128.500</Line>
     </ControllerInfo>
   </Position>
+  <Position Name="Bahir Dar Approach" Type="ASD" DefaultCenter="+11.606294+037.319728" DefaultRange="300" VisibilityRange="100">
+    <Sectors>
+      <Sector Name="BDA"/>
+    </Sectors>
+    <Maps>
+      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
+      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+    </Maps>
+    <ATIS>
+        <Editor Airport="HDAM" Frequency="126.4" />
+        <Window Airport="HDAM" />
+      </ATIS>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true"/>
+      <Window Type="State" State="Announced" Visible="true"/>
+      <Window Type="State" State="Preactive" Visible="true"/>
+    </Strips>
+    <ArrivalLists>
+      <Airport Name="HABD"/>
+    </ArrivalLists>
+    <CFL QuickLevel="24000"/>
+    <ControllerInfo>
+      <Line>"Bahir Dar Approach"</Line>
+      <Line>Monitor ATIS on 128.500</Line>
+    </ControllerInfo>
+  </Position>
   </Group>
   <Group Name="Tower positions">
   <Position Name="Bole Tower" Type="ASD" DefaultCenter="+08.975042+038.799400" DefaultRange="100" VisibilityRange="50">
@@ -59,6 +94,10 @@
       <Sector Name="AB SMC"/>
     </Sectors>
     <Maps>
+    <ATIS>
+        <Editor Airport="HAAB" Frequency="128.8" />
+        <Window Airport="HAAB" />
+      </ATIS>
       <Map Name="NAVAIDS/NDB_SYMBOLS"/>
       <Map Name="NAVAIDS/VOR_SYMBOLS"/>
     </Maps>
@@ -75,6 +114,56 @@
     </ControllerInfo>
     <ControllerInfo Callsign="HAAB_GND">
       <Line>"Bole Ground"</Line>
+      <Line>Monitor ATIS on 128.500</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Axum Tower" Type="ASD" DefaultCenter="+14.137069+038.776056" DefaultRange="100" VisibilityRange="30">
+    <Sectors>
+      <Sector Name="AX ADC"/>
+      <Sector Name="AX SMC"/>
+    </Sectors>
+    <Maps>
+      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
+      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+    </Maps>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="HAAX" Visible="true"/>
+    </Strips>
+    <ArrivalLists>
+      <Airport Name="HAAX"/>
+    </ArrivalLists>
+    <CFL QuickLevel="24000"/>
+    <ControllerInfo>
+      <Line>"Axum Tower"</Line>
+      <Line>Monitor ATIS on 128.500</Line>
+    </ControllerInfo>
+    <ControllerInfo Callsign="HAAX_GND">
+      <Line>"Axum Ground"</Line>
+      <Line>Monitor ATIS on 128.500</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Bahir Dar Tower" Type="ASD" DefaultCenter="+11.606294+037.319728" DefaultRange="150" VisibilityRange="50">
+    <Sectors>
+      <Sector Name="BD ADC"/>
+      <Sector Name="BD SMC"/>
+    </Sectors>
+    <Maps>
+      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
+      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+    </Maps>
+    <ATIS>
+        <Editor Airport="HDAM" Frequency="126.4" />
+        <Window Airport="HDAM" />
+      </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="HABD" Visible="true"/>
+    </Strips>
+    <ArrivalLists>
+      <Airport Name="HABD"/>
+    </ArrivalLists>
+    <CFL QuickLevel="24000"/>
+    <ControllerInfo>
+      <Line>"Bahir Dar Tower"</Line>
       <Line>Monitor ATIS on 128.500</Line>
     </ControllerInfo>
   </Position>

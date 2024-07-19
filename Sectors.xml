@@ -27,6 +27,9 @@
   <Sector Name="BDA" FullName="Bahir Dar Approach" Frequency="118.300" Callsign="HABD_APP">
     <Volumes>HABD_TMA</Volumes>
   </Sector>
+  <Sector Name="BD ADC" FullName="Bahir Dar Tower" Frequency="118.300" Callsign="HABD_TWR">
+    <Volumes>HABD_CTR</Volumes>
+  </Sector>
 
   <!-- Sectors for handoff (!!YET TO BE COMPLETED!!)-->
   <Sector FullName="Africa Central Control" Frequency="129.075" Callsign="AFRC_FSS" Name="AFRC"/>
