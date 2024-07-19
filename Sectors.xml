@@ -10,6 +10,9 @@
   <Sector Name="ABA" FullName="Bole Approach" Frequency="119.700" Callsign="HAAB_APP">
     <Volumes>HAAB_TMA</Volumes>
   </Sector>
+  <Sector Name="AB ADC" FullName="Bole Tower" Frequency="118.100" Callsign="HAAB_TWR">
+    <Volumes>HAAB_CTR</Volumes>
+  </Sector>
 
   <!-- Sectors for handoff -->
   <Sector FullName="Africa Central Control" Frequency="129.075" Callsign="AFRC_FSS" Name="AFRC"/>
