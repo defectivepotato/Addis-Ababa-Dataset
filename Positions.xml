@@ -226,4 +226,10 @@
     </ControllerInfo>
   </Position>
   </Group>
+  <Position Name="HAAB" Type="ASMGCS" ASMGCSAirport="HAAB" DefaultCenter="+08.975042+038.799400" DefaultRange="2">
+    <Maps>
+      <Map Name="Las Americas/MDSD_RWYS" />
+      <Map Name="Las Americas/MDSD_TWYS" />
+    </Maps>
+  </Position>
 </Positions>
