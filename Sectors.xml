@@ -30,13 +30,7 @@
   <Sector Name="BD ADC" FullName="Bahir Dar Tower" Frequency="118.300" Callsign="HABD_TWR">
     <Volumes>HABD_CTR</Volumes>
   </Sector>
-  <Sector Name="DC ADC" FullName="Combolcha Tower" Frequency="118.700" Callsign="HADC_TWR">
-    <Volumes>HADC_CTR</Volumes>
-  </Sector>
-  <Sector Name="DC SMC" FullName="Combolcha Ground" Frequency="121.900" Callsign="HADC_TWR">
-    <Volumes>HADC_CTR</Volumes>
-  </Sector>
-  <Sector Name="DRA" FullName="Dire Dawa Approach" Frequency="120.300" Callsign="HADR_APP">
+<Sector Name="DRA" FullName="Dire Dawa Approach" Frequency="120.300" Callsign="HADR_APP">
     <Volumes>HADR_TMA</Volumes>
   </Sector>
   <Sector Name="DR ADC" FullName="Dire Dawa Tower" Frequency="118.300" Callsign="HADR_TWR">
@@ -94,13 +88,13 @@
     <Volumes>HASO_CTR</Volumes>
   </Sector>
   <Sector Name="DAMA" FullName="Djibouti Approach" Frequency="118.500" Callsign="HDAM_APP">
-    <Volumes>HAMK_TMA</Volumes>
+    <Volumes>HDAM_TMA</Volumes>
   </Sector>
   <Sector Name="DAM ADC" FullName="Djibouti Tower" Frequency="122.100" Callsign="HDAM_TWR">
-    <Volumes>HAMK_CTR</Volumes>
+    <Volumes>HDAM_CTR</Volumes>
   </Sector>
   <Sector Name="DAM SMC" FullName="Djibouti Ground" Frequency="118.100" Callsign="HDAM_GND">
-    <Volumes>HAMK_CTR</Volumes>
+    <Volumes>HDAM_CTR</Volumes>
   </Sector>
 
   <!-- Sectors for handoff (!!YET TO BE COMPLETED!!)-->
