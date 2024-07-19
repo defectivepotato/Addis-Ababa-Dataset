@@ -1,25 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Sectors>
-  <Sector Name="ACW" FullName="Addis West" Frequency="125.100" Callsign="HAAA_1_CTR">
+  <Sector Name="ACW" FullName="Addis West Control" Frequency="125.100" Callsign="HAAA_1_CTR">
     <Volumes>HAAA_W</Volumes>
-    <ResponsibleSectors>ACE,ABA</ResponsibleSectors>
+    <ResponsibleSectors>ACE,ABA,DAMA</ResponsibleSectors>
   </Sector>
-  <Sector Name="ACE" FullName="Addis East" Frequency="125.200" Callsign="HAAA_2_CTR">
+  <Sector Name="ACE" FullName="Addis East Control" Frequency="125.200" Callsign="HAAA_2_CTR">
     <Volumes>HAAA_E</Volumes>
+    <ResponsibleSectors>DAMA</ResponsibleSectors>
   </Sector>
   <Sector Name="ABA" FullName="Bole Approach" Frequency="119.700" Callsign="HAAB_APP">
     <Volumes>HAAB_TMA</Volumes>
   </Sector>
   <Sector Name="AB ADC" FullName="Bole Tower" Frequency="118.100" Callsign="HAAB_TWR">
     <Volumes>HAAB_CTR</Volumes>
-    <ResponsibleSectors>AB SMC</ResponsibleSectors>
   </Sector>
   <Sector Name="AB SMC" FullName="Bole Ground" Frequency="121.900" Callsign="HAAB_GND">
     <Volumes>HAAB_CTR</Volumes>
   </Sector>
   <Sector Name="AX ADC" FullName="Axum Tower" Frequency="118.000" Callsign="HAAX_TWR">
     <Volumes>HAAX_CTR</Volumes>
-    <ResponsibleSectors>AX SMC</ResponsibleSectors>
   </Sector>
   <Sector Name="AX SMC" FullName="Axum Ground" Frequency="121.900" Callsign="HAAX_GND">
     <Volumes>HAAX_CTR</Volumes>

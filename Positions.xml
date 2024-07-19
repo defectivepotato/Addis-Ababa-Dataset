@@ -69,6 +69,28 @@
       <Map Name="NAVAIDS/NDB_SYMBOLS"/>
       <Map Name="NAVAIDS/VOR_SYMBOLS"/>
     </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true"/>
+      <Window Type="State" State="Announced" Visible="true"/>
+      <Window Type="State" State="Preactive" Visible="true"/>
+    </Strips>
+    <ArrivalLists>
+      <Airport Name="HABD"/>
+    </ArrivalLists>
+    <CFL QuickLevel="24000"/>
+    <ControllerInfo>
+      <Line>"Bahir Dar Approach"</Line>
+      <Line>Monitor ATIS on 128.500</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Djibouti Approach" Type="ASD" DefaultCenter="+11.547222+043.159444" DefaultRange="300" VisibilityRange="100">
+    <Sectors>
+      <Sector Name="DAMA"/>
+    </Sectors>
+    <Maps>
+      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
+      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+    </Maps>
     <ATIS>
         <Editor Airport="HDAM" Frequency="126.4" />
         <Window Airport="HDAM" />
@@ -83,8 +105,8 @@
     </ArrivalLists>
     <CFL QuickLevel="24000"/>
     <ControllerInfo>
-      <Line>"Bahir Dar Approach"</Line>
-      <Line>Monitor ATIS on 128.500</Line>
+      <Line>"Djibouti Approach"</Line>
+      <Line>Monitor ATIS on 126.400</Line>
     </ControllerInfo>
   </Position>
   </Group>
@@ -152,10 +174,6 @@
       <Map Name="NAVAIDS/NDB_SYMBOLS"/>
       <Map Name="NAVAIDS/VOR_SYMBOLS"/>
     </Maps>
-    <ATIS>
-        <Editor Airport="HDAM" Frequency="126.4" />
-        <Window Airport="HDAM" />
-      </ATIS>
     <Strips Mode="Beacon" Sort="Alpha">
       <Window Type="ADEP" Beacon="HABD" Visible="true"/>
     </Strips>
@@ -166,6 +184,37 @@
     <ControllerInfo>
       <Line>"Bahir Dar Tower"</Line>
       <Line>Monitor ATIS on 128.500</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Djibouti Tower" Type="ASD" DefaultCenter="+11.547222+043.159444" DefaultRange="100" VisibilityRange="50">
+    <Sectors>
+      <Sector Name="DAM ADC"/>
+      <Sector Name="DAM SMC"/>
+    </Sectors>
+    <Maps>
+      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
+      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+    </Maps>
+    <ATIS>
+        <Editor Airport="HDAM" Frequency="126.4" />
+        <Window Airport="HDAM" />
+      </ATIS>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true"/>
+      <Window Type="State" State="Announced" Visible="true"/>
+      <Window Type="State" State="Preactive" Visible="true"/>
+    </Strips>
+    <ArrivalLists>
+      <Airport Name="HABD"/>
+    </ArrivalLists>
+    <CFL QuickLevel="24000"/>
+    <ControllerInfo>
+      <Line>"Djibouti Tower"</Line>
+      <Line>Monitor ATIS on 126.400</Line>
+    </ControllerInfo>
+    <ControllerInfo Callsign="HDAM_GND">
+      <Line>"Djibouti Ground"</Line>
+      <Line>Monitor ATIS on 126.400</Line>
     </ControllerInfo>
   </Position>
   </Group>
