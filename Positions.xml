@@ -5,6 +5,10 @@
       <Sector Name="ACW"/>
       <Sector Name="ACE"/>
       <Sector Name="ABA"/>
+      <Sector Name="BDA"/>
+      <Sector Name="DAMA"/>
+      <Sector Name="DRA"/>
+      <Sector Name="MKA"/>
     </Sectors>
     <Maps>
       <Map Name="NAVAIDS/NDB_SYMBOLS"/>
@@ -26,7 +30,11 @@
     </ArrivalLists>
     <CFL QuickLevel="16000"/>
     <ControllerInfo>
-      <Line>"Addis Control"</Line>
+      <Line>"Addis Control West"</Line>
+      <Line>Covering Ethiopia and Djibouti when local ATC offline</Line>
+    </ControllerInfo>
+    <ControllerInfo Callsign="HAAA_2_CTR">
+      <Line>"Addis Control East"</Line>
       <Line>Covering Ethiopia and Djibouti when local ATC offline</Line>
     </ControllerInfo>
   </Position>
