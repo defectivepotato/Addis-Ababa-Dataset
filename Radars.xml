@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Radars>
 <!-- Primary Radars-->
-  <Radar Name="Bole PRI" Type="PRI" Elevation="7625" MaxRange="60">
-    <Lat>+09.106667</Lat>
+  <Radar Name="Bole PRI" Type="PRI" Elevation="7700" MaxRange="60">
+    <Lat>09.106667</Lat>
     <Long>+038.770000</Long>
   </Radar>
   <Radar Name="Djibouti PRI" Type="PRI" Elevation="49" MaxRange="60">
-    <Lat>+11.550000</Lat>
+    <Lat>11.550000</Lat>
     <Long>+043.155000</Long>
   </Radar>
 <!-- SSR Radars-->
-    <Radar Name="Bole SSR" Type="SSR_ModeS" Elevation="7625" MaxRange="200">
-    <Lat>+09.106667</Lat>
+    <Radar Name="Bole SSR" Type="SSR_ModeS" Elevation="7700" MaxRange="200">
+    <Lat>09.106667</Lat>
     <Long>+038.770000</Long>
   </Radar>
   <Radar Name="Djibouti SSR" Type="SSR_ModeS" Elevation="49" MaxRange="200">
-    <Lat>+11.550000</Lat>
+    <Lat>11.550000</Lat>
     <Long>+043.155000</Long>
   </Radar>
   <Radar Name="Gambella SSR" Type="SSR_ModeC" Elevation="1771" MaxRange="250">
-    <Lat>+08.117333</Lat>
+    <Lat>08.117333</Lat>
     <Long>+034.563333</Long>
   </Radar>
   <Radar Name="Kebri Dehar SSR" Type="SSR_ModeC" Elevation="1726" MaxRange="250">
-    <Lat>+06.733944</Lat>
+    <Lat>06.733944</Lat>
     <Long>+044.207778</Long>
   </Radar>
   <Radar Name="Soddo SSR" Type="SSR_ModeC" Elevation="6400" MaxRange="250">
-    <Lat>+06.833333</Lat>
+    <Lat>06.833333</Lat>
     <Long>+037.766667</Long>
   </Radar>
   <Radar Name="Axum SSR" Type="SSR_ModeC" Elevation="6960" MaxRange="250">
-    <Lat>+14.146667</Lat>
+    <Lat>14.146667</Lat>
     <Long>+038.776667</Long>
   </Radar>
   <!--Ground Radars-->
   <Radar Name="HAAB_SMR" Type="SMR" Elevation="7625" MaxRange="5">
-    <Lat>+08.974585</Lat>
+    <Lat>08.974585</Lat>
     <Long>+038.797373</Long>
   </Radar>
     <Radar Name="HDAM_SMR" Type="SMR" Elevation="49" MaxRange="5">
-    <Lat>+11.543753</Lat>
+    <Lat>11.543753</Lat>
     <Long>+043.158390</Long>
   </Radar>
     <Radar Name="HADR_SMR" Type="SMR" Elevation="3792" MaxRange="5">
-    <Lat>+09.624185</Lat>
+    <Lat>09.624185</Lat>
     <Long>+041.855614</Long>
   </Radar>
     <Radar Name="HABD_SMR" Type="SMR" Elevation="6023" MaxRange="5">
-    <Lat>+11.607244</Lat>
+    <Lat>11.607244</Lat>
     <Long>+037.318811</Long>
   </Radar>
     <Radar Name="HAAX_SMR" Type="SMR" Elevation="6960" MaxRange="5">
-    <Lat>+14.146323</Lat>
+    <Lat>14.146323</Lat>
     <Long>+038.771748</Long>
   </Radar>
     <Radar Name="HAGN_SMR" Type="SMR" Elevation="6545" MaxRange="5">
-    <Lat>+12.517348</Lat>
+    <Lat>12.517348</Lat>
     <Long>+037.435628</Long>
   </Radar>
       <Radar Name="HAAM_SMR" Type="SMR" Elevation="3895" MaxRange="5">
-    <Lat>+06.039021</Lat>
+    <Lat>06.039021</Lat>
     <Long>+037.591513</Long>
   </Radar>
 </Radars>
