@@ -13,6 +13,8 @@
     <Maps>
       <Map Name="NAVAIDS/NDB_SYMBOLS"/>
       <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+      <Map Name="ALL_CTA"/>
+      <Map Name="ALL_COAST"/>
     </Maps>
     <ATIS>
         <Editor Airport="HAAB" Frequency="128.8" />
@@ -46,6 +48,8 @@
     <Maps>
       <Map Name="NAVAIDS/NDB_SYMBOLS"/>
       <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+      <Map Name="ALL_CTA"/>
+      <Map Name="ALL_COAST"/>
     </Maps>
     <ATIS>
         <Editor Airport="HAAB" Frequency="128.8" />
@@ -76,6 +80,8 @@
     <Maps>
       <Map Name="NAVAIDS/NDB_SYMBOLS"/>
       <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+      <Map Name="ALL_CTA"/>
+      <Map Name="ALL_COAST"/>
     </Maps>
     <Strips Mode="State" Sort="Time">
       <Window Type="State" State="Jurisdiction" Visible="true"/>
@@ -98,6 +104,8 @@
     <Maps>
       <Map Name="NAVAIDS/NDB_SYMBOLS"/>
       <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+      <Map Name="ALL_CTA"/>
+      <Map Name="ALL_COAST"/>
     </Maps>
     <ATIS>
         <Editor Airport="HDAM" Frequency="126.4" />
@@ -230,7 +238,6 @@
     <Maps>
       <Map Name="Bole/HAAB_RWYS"/>
       <Map Name="Bole/HAAB_TWYS"/>
-      <Map Name="Bole/HAAB_GRASS"/>
       <Map Name="Bole/HAAB_BLDS"/>
     </Maps>
   </Position>
