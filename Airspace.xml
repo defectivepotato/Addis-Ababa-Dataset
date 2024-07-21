@@ -1,123 +1,187 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Airspace>
     <Airports>
-        <Airport Elevation="7625" Name="HAAB" Position="+08.975042+038.799400">
+        <Airport Elevation="7625" ICAO="HAAB" Position="+08.975042+038.799400">
             <Runway Name="07L" Position="+08.974614+038.784575"/>
             <Runway Name="07R" Position="+08.973236+038.786644"/>
             <Runway Name="25L" Position="+08.981072+038.813531"/>
             <Runway Name="25R" Position="+08.982444+038.811433"/>
         </Airport>
-        <Airport Elevation="3895" Name="HAAM" Position="+06.028753+037.584008">
+        <Airport Elevation="3895" ICAO="HAAM" Position="+06.028753+037.584008">
             <Runway Name="03" Position="+06.028753+037.584008"/>
             <Runway Name="21" Position="+06.049950+037.597450"/>
         </Airport>
-        <Airport Elevation="6960" Name="HAAX" Position="+14.137069+038.776056">
+        <Airport Elevation="6960" ICAO="HAAX" Position="+14.137069+038.776056">
             <Runway Name="16" Position="+14.157589+038.768853"/>
             <Runway Name="34" Position="+14.137069+038.776056"/>
         </Airport>
-        <Airport Elevation="6023" Name="HABD" Position="+11.606294+037.319728">
+        <Airport Elevation="6023" ICAO="HABD" Position="+11.606294+037.319728">
             <Runway Name="04" Position="+11.598622+037.311967"/>
             <Runway Name="22" Position="+11.617811+037.331375"/>
         </Airport>
-        <Airport Elevation="6134" Name="HADC" Position="+11.101389+039.727222">
+        <Airport Elevation="6134" ICAO="HADC" Position="+11.101389+039.727222">
             <Runway Name="17" Position="+11.119167+039.724722"/>
             <Runway Name="35" Position="+11.101389+039.727222"/>
         </Airport>
-        <Airport Elevation="3792" Name="HADR" Position="+09.637786+041.848886">
+        <Airport Elevation="3792" ICAO="HADR" Position="+09.637786+041.848886">
             <Runway Name="15" Position="+09.635758+041.848453"/>
             <Runway Name="33" Position="+09.614331+041.859842"/>
         </Airport>
-        <Airport Elevation="8093" Name="HAGB" Position="+07.119608+040.045589">
+        <Airport Elevation="8093" ICAO="HAGB" Position="+07.119608+040.045589">
             <Runway Name="15" Position="+07.131375+040.037292"/>
             <Runway Name="33" Position="+07.113650+040.048736"/>
         </Airport>
-        <Airport Elevation="1804" Name="HAGM" Position="+08.117292+034.563361">
+        <Airport Elevation="1804" ICAO="HAGM" Position="+08.117292+034.563361">
             <Runway Name="18" Position="+08.140025+034.563239"/>
             <Runway Name="36" Position="+08.117292+034.563361"/>
         </Airport>
-        <Airport Elevation="6545" Name="HAGN" Position="+12.532336+037.431797">
+        <Airport Elevation="6545" ICAO="HAGN" Position="+12.532336+037.431797">
             <Runway Name="17" Position="+12.532336+037.431797"/>
             <Runway Name="35" Position="+12.507606+037.436317"/>
         </Airport>
-        <Airport Elevation="834" Name="HAGO" Position="+05.935128+043.578569">
+        <Airport Elevation="834" ICAO="HAGO" Position="+05.935128+043.578569">
             <Runway Name="04" Position="+05.926525+043.571686"/>
             <Runway Name="22" Position="+05.942903+043.585906"/>
         </Airport>
-        <Airport Elevation="5935" Name="HAJJ" Position="+09.330328+042.910850">
+        <Airport Elevation="5935" ICAO="HAJJ" Position="+09.330328+042.910850">
             <Runway Name="03" Position="+09.322578+042.906572"/>
             <Runway Name="21" Position="+09.342247+042.917436"/>
         </Airport>
-        <Airport Elevation="5621" Name="HAJM" Position="+07.661639+036.820222">
+        <Airport Elevation="5621" ICAO="HAJM" Position="+07.661639+036.820222">
             <Runway Name="13" Position="+07.669267+036.808419"/>
             <Runway Name="31" Position="+07.653261+036.831539"/>
         </Airport>
-        <Airport Elevation="1726" Name="HAKD" Position="+06.732778+044.241389">
+        <Airport Elevation="1726" ICAO="HAKD" Position="+06.732778+044.241389">
             <Runway Name="08" Position="+06.731669+044.230592"/>
             <Runway Name="26" Position="+06.733586+044.250244"/>
         </Airport>
-        <Airport Elevation="5702" Name="HALA" Position="+07.100611+038.397006">
+        <Airport Elevation="5702" ICAO="HALA" Position="+07.100611+038.397006">
             <Runway Name="01" Position="+07.087958+038.394350"/>
             <Runway Name="19" Position="+07.114606+038.398833"/>
         </Airport>
-        <Airport Elevation="6431" Name="HALL" Position="+11.973856+038.991117">
+        <Airport Elevation="6431" ICAO="HALL" Position="+11.973856+038.991117">
             <Runway Name="10" Position="+11.976478+038.969569"/>
             <Runway Name="28" Position="+11.973897+038.991439"/>
         </Airport>
-        <Airport Elevation="7401" Name="HAMK" Position="+13.473322+039.518211">
+        <Airport Elevation="7401" ICAO="HAMK" Position="+13.473322+039.518211">
             <Runway Name="11" Position="+13.472322+039.520786"/>
             <Runway Name="29" Position="+13.462300+039.546531"/>
         </Airport>
-        <Airport Elevation="1365" Name="HASM" Position="+11.787500+040.991667">
+        <Airport Elevation="1365" ICAO="HASM" Position="+11.787500+040.991667">
             <Runway Name="13" Position="+11.795758+040.983306"/>
             <Runway Name="31" Position="+11.780550+040.998536"/>
         </Airport>
-        <Airport Elevation="5117" Name="HASO" Position="+10.020861+034.582278">
+        <Airport Elevation="5117" ICAO="HASO" Position="+10.020861+034.582278">
             <Runway Name="11" Position="+10.025194+034.571861"/>
             <Runway Name="29" Position="+10.015778+034.592361"/>
         </Airport>
-        <Airport Elevation="6209" Name="HASR" Position="+14.075917+038.273500">
+        <Airport Elevation="6209" ICAO="HASR" Position="+14.075917+038.273500">
             <Runway Name="15" Position="+14.085475+038.266861"/>
             <Runway Name="33" Position="+14.066944+038.279750"/>
         </Airport>
-        <Airport Elevation="4471" Name="HCMH" Position="+09.518089+044.089708">
+        <Airport Elevation="4471" ICAO="HCMH" Position="+09.518089+044.089708">
             <Runway Name="06" Position="+09.505567+044.071425"/>
             <Runway Name="24" Position="+09.524364+044.098919"/>
         </Airport>
-        <Airport Elevation="935" Name="HCMR" Position="+06.780889+047.455083">
+        <Airport Elevation="935" ICAO="HCMR" Position="+06.780889+047.455083">
             <Runway Name="05L" Position="+06.773139+047.445194"/>
             <Runway Name="05R" Position="+06.777500+047.451667"/>
             <Runway Name="23L" Position="+06.789250+047.465361"/>
             <Runway Name="23R" Position="+06.789750+047.465028"/>
         </Airport>
-        <Airport Elevation="3410" Name="HCMV" Position="+09.500000+045.566667">
+        <Airport Elevation="3410" ICAO="HCMV" Position="+09.500000+045.566667">
             <Runway Name="05" Position="+09.500000+045.566667"/>
             <Runway Name="23" Position="+09.500000+045.566667"/>
         </Airport>
-        <Airport Elevation="49" Name="HDAM" Position="+11.547222+043.159444">
+        <Airport Elevation="49" ICAO="HDAM" Position="+11.547222+043.159444">
             <Runway Name="09" Position="+11.547539+043.145053"/>
             <Runway Name="27" Position="+11.547161+043.171875"/>
         </Airport>
-        <Airport Elevation="7661" Name="HHAS" Position="+15.284167+038.900833">
+        <Airport Elevation="7661" ICAO="HHAS" Position="+15.284167+038.900833">
             <Runway Name="07" Position="+15.284156+038.894461"/>
             <Runway Name="25" Position="+15.291497+038.921358"/>
         </Airport>
-        <Airport Elevation="46" Name="HHSB" Position="+13.066667+042.633333">
+        <Airport Elevation="46" ICAO="HHSB" Position="+13.066667+042.633333">
             <Runway Name="12" Position="+13.079669+042.631164"/>
             <Runway Name="30" Position="+13.063792+042.659028"/>
         </Airport>
-        <Airport Elevation="1245" Name="HKFG" Position="+03.480361+035.834167">
+        <Airport Elevation="1245" ICAO="HKFG" Position="+03.480361+035.834167">
             <Runway Name="12" Position="+03.493978+035.832642"/>
             <Runway Name="30" Position="+03.489436+035.840483"/>
         </Airport>
-        <Airport Elevation="1805" Name="HKLG" Position="+04.330278+035.700833">
+        <Airport Elevation="1805" ICAO="HKLG" Position="+04.330278+035.700833">
             <Runway Name="12" Position="+04.330278+035.700833"/>
             <Runway Name="30" Position="+04.330278+035.700833"/>
         </Airport>
-        <Airport Elevation="805" Name="HKMA" Position="+03.930278+041.851000">
+        <Airport Elevation="805" ICAO="HKMA" Position="+03.930278+041.851000">
             <Runway Name="05" Position="+03.930972+041.840342"/>
             <Runway Name="23" Position="+03.936653+041.847992"/>
         </Airport>
     </Airports>
+    <SystemRunways>
+        <Airport Name="HAAB">
+            <Runway Name="07R" DataRunway="07R" >
+                <SID Name="BRO3A"/>
+                <SID Name="DAVI1A"/>
+                <SID Name="DAVI2A"/>
+                <SID Name="EGNA3A"/>
+                <SID Name="EKBO1A"/>
+                <SID Name="ETGO1A"/>
+                <SID Name="IMKI3A"/>
+                <SID Name="IMTO2A"/>
+                <SID Name="KOFT3A"/>
+                <SID Name="LABL2A"/>
+                <SID Name="LABL3A"/>
+                <SID Name="MIWA2A"/>
+                <SID Name="NIDE1A"/>
+                <SID Name="SHAL2A"/>
+                <SID Name="USUB1A"/>
+                <SID Name="USUB2A"/>
+            </Runway>
+            <Runway Name="07L" DataRunway="07L" >
+                <SID Name="BRO4A"/>
+                <SID Name="DAVI3A"/>
+                <SID Name="DAVI4A"/>
+                <SID Name="EGNA4A"/>
+                <SID Name="EKBO2A"/>
+                <SID Name="ETGO2A"/>
+                <SID Name="GUDE4A"/>
+                <SID Name="IMKI1A"/>
+                <SID Name="IMTO3A"/>
+                <SID Name="KOFT4A"/>
+                <SID Name="LABL4A"/>
+                <SID Name="LABL5A"/>
+                <SID Name="MIWA3A"/>
+                <SID Name="NIDE2A"/>
+                <SID Name="SHAL3A"/>
+                <SID Name="USUB3A"/>
+                <SID Name="USUB4A"/>
+            </Runway>
+            <Runway Name="25L" DataRunway="25L" >
+                <SID Name="AMUD1B"/>
+                <SID Name="BEND2B"/>
+                <SID Name="BRO4B"/>
+                <SID Name="DAVI1B"/>
+                <SID Name="EKBO1B"/>
+                <SID Name="IMKI4B"/>
+                <SID Name="KOFT3B"/>
+                <SID Name="MAGO2B"/>
+                <SID Name="NIDE1B"/>
+                <SID Name="OKNE1B"/>
+                <SID Name="USUB1B"/>
+            </Runway>
+            <Runway Name="25R" DataRunway="25R" >
+                <SID Name="AMUD2B"/>
+                <SID Name="BEND3B"/>
+                <SID Name="DAVI2B"/>
+                <SID Name="EKBO2B"/>
+                <SID Name="MAGO3B"/>
+                <SID Name="NIDE3B"/>
+                <SID Name="OKNE2B"/>
+                <SID Name="USUB2B"/>
+            </Runway>
+        </Airport>
+    </SystemRunways>
     <Intersections>
     <!--Waypoints-->
         <Point Name="0435E" Type="Fix">+04.000000+035.000000</Point>
@@ -1269,154 +1333,6 @@
     </Airways>
     <SIDSTARs>
     <!--SIDs and STARs-->
-    <Airport Name="HAAB">
-        <Runway Name="07R" DataRunway="07R" >
-            <SID Name="ASOL1A"/>
-            <SID Name="ASOL2A"/>
-            <SID Name="BEND1A"/>
-            <SID Name="BRO3A"/>
-            <SID Name="DAVI1A"/>
-            <SID Name="DAVI2A"/>
-            <SID Name="EGNA1A"/>
-            <SID Name="EGNA2A"/>
-            <SID Name="EGNA3A"/>
-            <SID Name="EKBO1A"/>
-            <SID Name="EPSO1A"/>
-            <SID Name="EPSO2A"/>
-            <SID Name="ETGO1A"/>
-            <SID Name="GISH1A"/>
-            <SID Name="GISH2A"/>
-            <SID Name="GUDE1A"/>
-            <SID Name="GUDE2A"/>
-            <SID Name="GUDE3A"/>
-            <SID Name="IMKI3A"/>
-            <SID Name="IMTO2A"/>
-            <SID Name="KOFT1A"/>
-            <SID Name="KOFT2A"/>
-            <SID Name="KOFT3A"/>
-            <SID Name="LABL1A"/>
-            <SID Name="LABL2A"/>
-            <SID Name="LABL3A"/>
-            <SID Name="MARC1A"/>
-            <SID Name="MIWA1A"/>
-            <SID Name="MIWA2A"/>
-            <SID Name="NIDE1A"/>
-            <SID Name="RANS1A"/>
-            <SID Name="RANS2A"/>
-            <SID Name="RANS3A"/>
-            <SID Name="SHAL1A"/>
-            <SID Name="SHAL2A"/>
-            <SID Name="USUB1A"/>
-            <SID Name="USUB2A"/>
-        </Runway>
-        <Runway Name="07L" DataRunway="07L" >
-            <SID Name="ASOL1A"/>
-            <SID Name="ASOL2A"/>
-            <SID Name="BEND1A"/>
-            <SID Name="BRO1A"/>
-            <SID Name="BRO4A"/>
-            <SID Name="DAVI3A"/>
-            <SID Name="DAVI4A"/>
-            <SID Name="EGNA1A"/>
-            <SID Name="EGNA2A"/>
-            <SID Name="EGNA4A"/>
-            <SID Name="EKBO2A"/>
-            <SID Name="EPSO1A"/>
-            <SID Name="EPSO2A"/>
-            <SID Name="ETGO2A"/>
-            <SID Name="GISH1A"/>
-            <SID Name="GISH2A"/>
-            <SID Name="GUDE1A"/>
-            <SID Name="GUDE2A"/>
-            <SID Name="GUDE4A"/>
-            <SID Name="IMKI1A"/>
-            <SID Name="IMTO1A"/>
-            <SID Name="IMTO3A"/>
-            <SID Name="KOFT1A"/>
-            <SID Name="KOFT2A"/>
-            <SID Name="KOFT4A"/>
-            <SID Name="LABL1A"/>
-            <SID Name="LABL4A"/>
-            <SID Name="LABL5A"/>
-            <SID Name="MARC1A"/>
-            <SID Name="MIWA1A"/>
-            <SID Name="MIWA3A"/>
-            <SID Name="NIDE2A"/>
-            <SID Name="RANS1A"/>
-            <SID Name="RANS2A"/>
-            <SID Name="RANS3A"/>
-            <SID Name="SHAL1A"/>
-            <SID Name="SHAL3A"/>
-            <SID Name="USUB3A"/>
-            <SID Name="USUB4A"/>
-        </Runway>
-        <Runway Name="25L" DataRunway="25L" >
-            <SID Name="AMUD1B"/>
-            <SID Name="ASOL1B"/>
-            <SID Name="ASOL2B"/>
-            <SID Name="BEND1B"/>
-            <SID Name="BEND2B"/>
-            <SID Name="BRO4B"/>
-            <SID Name="DAVI1B"/>
-            <SID Name="EGNA1B"/>
-            <SID Name="EGNA2B"/>
-            <SID Name="EKBO1B"/>
-            <SID Name="EPSO1B"/>
-            <SID Name="EPSO2B"/>
-            <SID Name="GISH1B"/>
-            <SID Name="GISH2B"/>
-            <SID Name="GUDE1B"/>
-            <SID Name="GUDE2B"/>
-            <SID Name="IMKI4B"/>
-            <SID Name="KOFT1B"/>
-            <SID Name="KOFT2B"/>
-            <SID Name="KOFT3B"/>
-            <SID Name="LABL1B"/>
-            <SID Name="MAGO2B"/>
-            <SID Name="MARC1B"/>
-            <SID Name="MIWA1B"/>
-            <SID Name="NIDE1B"/>
-            <SID Name="OKNE1B"/>
-            <SID Name="RANS1B"/>
-            <SID Name="RANS2B"/>
-            <SID Name="RANS3B"/>
-            <SID Name="SHAL1B"/>
-            <SID Name="USUB1B"/>
-        </Runway>
-        <Runway Name="25R" DataRunway="25R" >
-            <SID Name="AMUD2B"/>
-            <SID Name="ASOL1B"/>
-            <SID Name="ASOL2B"/>
-            <SID Name="BEND1B"/>
-            <SID Name="BEND3B"/>
-            <SID Name="BRO5B"/>
-            <SID Name="DAVI2B"/>
-            <SID Name="EGNA1B"/>
-            <SID Name="EGNA2B"/>
-            <SID Name="EKBO2B"/>
-            <SID Name="EPSO1B"/>
-            <SID Name="EPSO2B"/>
-            <SID Name="GISH1B"/>
-            <SID Name="GISH2B"/>
-            <SID Name="GUDE1B"/>
-            <SID Name="GUDE2B"/>
-            <SID Name="IMKI5B"/>
-            <SID Name="KOFT1B"/>
-            <SID Name="KOFT2B"/>
-            <SID Name="KOFT4B"/>
-            <SID Name="LABL1B"/>
-            <SID Name="MAGO3B"/>
-            <SID Name="MARC1B"/>
-            <SID Name="MIWA1B"/>
-            <SID Name="NIDE3B"/>
-            <SID Name="OKNE2B"/>
-            <SID Name="RANS1B"/>
-            <SID Name="RANS2B"/>
-            <SID Name="RANS3B"/>
-            <SID Name="SHAL1B"/>
-            <SID Name="USUB2B"/>
-        </Runway>
-    </Airport>
         <SID Airport="HAAX" Name="DASENB" Runways="16"/>
         <SID Airport="HAAX" Name="NAISOB" Runways="16"/>
         <SID Airport="HAAX" Name="NIWAYB" Runways="16"/>
