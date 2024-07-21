@@ -35,11 +35,11 @@
     <Long>+038.776667</Long>
   </Radar>
   <!--Ground Radars-->
-  <Radar Name="HAAB_SMR" Type="SMR" Elevation="7625" MaxRange="5">
+  <Radar Name="HAAB_SMR" Type="SMR_ADSB" Elevation="7625" MaxRange="5">
     <Lat>08.974585</Lat>
     <Long>+038.797373</Long>
   </Radar>
-    <Radar Name="HDAM_SMR" Type="SMR" Elevation="49" MaxRange="5">
+    <Radar Name="HDAM_SMR" Type="SMR_ADSB" Elevation="49" MaxRange="5">
     <Lat>11.543753</Lat>
     <Long>+043.158390</Long>
   </Radar>
