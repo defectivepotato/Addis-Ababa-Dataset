@@ -1,68 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <SSRAssignment>
-<!-- Code "Bins" define available codes and their assigned Regex rules. 
+<!-- Code "Bins" define available codes and their assigned Regex rules.
 		Priority is applied by the order they appear in this file. -->
-		
+
   <!-- Excluded Codes are never assigned -->
   <Bin>
     <Rule Excluded="true"/>
     <Codes>
-      7615
+      0000,0040,1234,2050,2077,7501,7577,7601
     </Codes>
   </Bin>
   <!-- VFR Flights -->
   <Bin>
     <Rule FlightRule="V"/>
-    <Codes Start="7001" End="7077"/>
-	<Codes Start="0601" End="0677"/>
+    <Codes Start="7001" End="7077" />
   </Bin>
     <!-- Military Flights -->
   <Bin>
-    <Rule Remarks="(\/|\b)(RAAF|MILITARY|USAF|RAF|RAN|ARMY|RNZAF|RNZN)\b"/>
-    <Codes Start="2501" End="2577"/>
-	<Codes Start="7301" End="7307"/>
-	<Codes Start="2001" End="2077"/>
-	<Codes Start="7310" End="7357"/>
-  </Bin>
+    <Rule Remarks="(\/|\b)(ETAF|ETAF|EAF|AF|MILITARY|USAF|RAF|ARMY|UN|UNO|UNITED NATIONS)\b"/>
+    <Codes Start="1001" End="1077"/>
+      </Bin> 
+  <Bin>
+    <Rule Callsign="(RCH|USAF|ICE|ASY|SDAF|ETAF|EAF|AF|RAF|UN|UNO)" />
+    <Codes Start="1001" End="1077"/>
+    </Bin> 
   <!-- Domestic Flights -->
   <Bin>
-    <Rule Departure="HA\w{w}" Destination="HA\w{w}"/>
+    <Rule Departure="HA\w{2}|HD\w{2}" Destination="HA\w{2}|HD\w{2}"/>
     <Codes Start="3501" End="3577"/>
-  </Bin>
+  </Bin> 
+    <!-- International Flights -->
   <Bin>
-    <Rule Departure="HD\w{w}" Destination="HD\w{w}"/>
-    <Codes Start="3501" End="3577"/>
+    <Rule Departure="HA\w{2}|HD\w{2}" />
+	  <Codes Start="5501" End="5577"/>
   </Bin>
+ <!-- Transit Flights -->
   <Bin>
-    <Rule Departure="HA\w{w}" Destination="HD\w{w}"/>
-    <Codes Start="3501" End="3577"/>
-  </Bin>
-  <Bin>
-    <Rule Departure="HD\w{w}" Destination="HA\w{w}"/>
-    <Codes Start="3501" End="3577"/>
-  </Bin>
-  <!-- International Flights -->
-  <Bin>
-    <Rule Departure="HAAB"/>
-    <Codes Start="5501" End="5577"/>
-	<Codes Start="5701" End="5777"/>
-  </Bin>
-  <Bin>
-    <Rule Departure="HDAM"/>
-    <Codes Start="4301" End="4377"/>
-  </Bin>
-  <!-- Arrivals -->
-  <Bin>
-    <Rule Destination="HAAB"/>
-    <Codes Start="0501" End="0577"/>
-  </Bin>
-  <Bin>
-    <Rule Destination="HDAM"/>
-    <Codes Start="0501" End="0577"/>
-  </Bin>
-  <!-- Transit Flights -->
-  <Bin>
-	<Codes Start="0101" End="0177"/>
+	<Codes Start="0501" End="0577"/>
 	<Codes Start="1601" End="1677"/>
   </Bin>
-</SSRAssignment>
+  </SSRAssignment>
