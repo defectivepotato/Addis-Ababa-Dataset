@@ -65,13 +65,13 @@
   </Radar>
 <!--Neighboring FIR Radars-->
 <!--HKNA-->
-  <Radar Name="Wajir" Type="SSR_ModeS" Elevation"830" MaxRange"250">
+  <Radar Name="Wajir" Type="SSR_ModeS" Elevation="830" MaxRange="250">
     <Lat>01.727925</Lat>
     <Long>+040.089625</Long>
   </Radar>
   <Radar Name="Poror" Type="SSR_ModeS" Elevation="8430" MaxRange="250">
     <Lat>01.236333</Lat>
-    <Long>+036.614750<Long>
+    <Long>+036.614750</Long>
   </Radar>
 <!--HSSS-->
   <Radar Name="Damazin MSSR" Type="SSR_ModeC" Elevation="1198" MaxRange="255">

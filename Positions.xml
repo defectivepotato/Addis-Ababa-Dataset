@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Positions>
-  <Position Name="Addis Bandbox" Type="ASD" DefaultCenter="+08.975042+038.799400" DefaultRange="1500" VisibilityRange="600">
+  <Position Name="Addis Bandbox" Type="ASD" DefaultCenter="+08.975042+038.799400" DefaultRange="1500" VisibilityRange="500">
     <Sectors>
       <Sector Name="ACW"/>
       <Sector Name="ACE"/>
@@ -10,6 +10,11 @@
       <Sector Name="DRA"/>
       <Sector Name="MKA"/>
     </Sectors>
+    <ManualVisibility>
+        <Point>+11.978042+038.983478</Point>
+        <Point>+05.709266+036.259884</Point>
+        <Point>+07.916295+044.533680</Point>
+    </ManualVisibility>
     <Maps>
       <Map Name="NAVAIDS/NDB_SYMBOLS"/>
       <Map Name="NAVAIDS/VOR_SYMBOLS"/>
