@@ -1707,172 +1707,172 @@
         <STAR Airport="HDAM" Name="TORB2B" Runways="09"/>
         <STAR Airport="HDAM" Name="TORB2V" Runways="27"/>
         <!--HAAB-->
-        <SID Airport="HAAB" Name="BRO3A" Runway="07R">
+        <SID Airport="HAAB" Name="BRO3A" Runways="07R">
           <Route Runway="07R">AB801/AB803/AB805/BRO</Route>
         </SID>
-        <SID Airport="HAAB" Name="DAVI1A" Runway="07R">
+        <SID Airport="HAAB" Name="DAVI1A" Runways="07R">
           <Route Runway="07R">AB801/AB802/LABLA/DAVIT</Route>
         </SID>
-        <SID Airport="HAAB" Name="DAVI2A" Runway="07R">
+        <SID Airport="HAAB" Name="DAVI2A" Runways="07R">
           <Route Runway="07R">AB906/AB910/LABLA/DAVIT</Route>
         </SID>
-        <SID Airport="HAAB" Name="EGNA3A" Runway="07R">
+        <SID Airport="HAAB" Name="EGNA3A" Runways="07R">
           <Route Runway="07R">GWZ/EGNAK</Route>
         </SID>
-        <SID Airport="HAAB" Name="EKBO1A" Runway="07R">
+        <SID Airport="HAAB" Name="EKBO1A" Runways="07R">
           <Route Runway="07R">AB904/AB905/AB909/EKBOB</Route>
         </SID>
-        <SID Airport="HAAB" Name="ETGO1A" Runway="07R">
+        <SID Airport="HAAB" Name="ETGO1A" Runways="07R">
           <Route Runway="07R">AB801/AB804/SHALA/ETGOM</Route>
         </SID>
-        <SID Airport="HAAB" Name="GUDE3A" Runway="07R">
+        <SID Airport="HAAB" Name="GUDE3A" Runways="07R">
           <Route Runway="07R">GWZ/GUDER</Route>
         </SID>
-        <SID Airport="HAAB" Name="IMKI3A" Runway="07R">
+        <SID Airport="HAAB" Name="IMKI3A" Runways="07R">
           <Route Runway="07R">AB801/AB804/DEGAG/IMKIT</Route>
         </SID>
-        <SID Airport="HAAB" Name="IMTO2A" Runway="07R">
+        <SID Airport="HAAB" Name="IMTO2A" Runways="07R">
           <Route Runway="07R">AB801/AB803/AB805/AB808/AB809/IMTOR</Route>
         </SID>
-        <SID Airport="HAAB" Name="KOFT3A" Runway="07R">
+        <SID Airport="HAAB" Name="KOFT3A" Runways="07R">
           <Route Runway="07R">GWZ/KOFTA</Route>
         </SID>
-        <SID Airport="HAAB" Name="LABL2A" Runway="07R">
+        <SID Airport="HAAB" Name="LABL2A" Runways="07R">
           <Route Runway="07R">AB801/AB802/LABLA</Route>
         </SID>
-        <SID Airport="HAAB" Name="LABL3A" Runway="07R">
+        <SID Airport="HAAB" Name="LABL3A" Runways="07R">
           <Route Runway="07R">AB906/AB910/LABLA</Route>
         </SID>
-        <SID Airport="HAAB" Name="MIWA2A" Runway="07R">
+        <SID Airport="HAAB" Name="MIWA2A" Runways="07R">
           <Route Runway="07R">AB901/MIWAS</Route>
         </SID>
-        <SID Airport="HAAB" Name="NIDE1A" Runway="07R">
+        <SID Airport="HAAB" Name="NIDE1A" Runways="07R">
           <Route Runway="07R">AB903/AB908/NIDEG</Route>
         </SID>
-        <SID Airport="HAAB" Name="SHAL2A" Runway="07R">
+        <SID Airport="HAAB" Name="SHAL2A" Runways="07R">
           <Route Runway="07R">AB801/AB804/SHALA</Route>
         </SID>
-        <SID Airport="HAAB" Name="USUB1A" Runway="07R">
+        <SID Airport="HAAB" Name="USUB1A" Runways="07R">
           <Route Runway="07R">AB801/AB803/AB805/AB806/USUBA</Route>
         </SID>
-        <SID Airport="HAAB" Name="USUB2A" Runway="07R">
+        <SID Airport="HAAB" Name="USUB2A" Runways="07R">
           <Route Runway="07R">AB801/AB803/AB805/AB807/USUBA</Route>
         </SID>
-        <SID Airport="HAAB" Name="AMUD1B" Runway="25L">
+        <SID Airport="HAAB" Name="AMUD1B" Runways="25L">
           <Route Runway="25L">AB210/AB211/AB212/AB216/AB217/MARCO/AMUDO</Route>
         </SID>
-        <SID Airport="HAAB" Name="BEND2B" Runway="25L">
+        <SID Airport="HAAB" Name="BEND2B" Runways="25L">
           <Route Runway="25L">AB210/AB211/BENDO</Route>
         </SID>
-        <SID Airport="HAAB" Name="BRO4B" Runway="25L">
+        <SID Airport="HAAB" Name="BRO4B" Runways="25L">
           <Route Runway="25L">AB210/AB211/AB213/AB214/BRO</Route>
         </SID>
-        <SID Airport="HAAB" Name="DAVI1B" Runway="25L">
+        <SID Airport="HAAB" Name="DAVI1B" Runways="25L">
           <Route Runway="25L">AB210/AB211/AB212/AB216/AB217/DAVIT</Route>
         </SID>
-        <SID Airport="HAAB" Name="EKBO1B" Runway="25L">
+        <SID Airport="HAAB" Name="EKBO1B" Runways="25L">
           <Route Runway="25L">AB310/AB370/AB380/EKBOB</Route>
         </SID>
-        <SID Airport="HAAB" Name="IMKI4B" Runway="25L">
+        <SID Airport="HAAB" Name="IMKI4B" Runways="25L">
           <Route Runway="25L">AB210/AB211/BENDO/IMKIT</Route>
         </SID>
-        <SID Airport="HAAB" Name="KOFT3B" Runway="25L">
+        <SID Airport="HAAB" Name="KOFT3B" Runways="25L">
           <Route Runway="25L">AB210/AB211/AB213/KOFTA</Route>
         </SID>
-        <SID Airport="HAAB" Name="MAGO2B" Runway="25L">
+        <SID Airport="HAAB" Name="MAGO2B" Runways="25L">
           <Route Runway="25L">AB310/AB320/AB340/AB360/MAGON</Route>
         </SID>
-        <SID Airport="HAAB" Name="NIDE1B" Runway="25L">
+        <SID Airport="HAAB" Name="NIDE1B" Runways="25L">
           <Route Runway="25L">AB310/AB320/AB330/AB350/NIDEG</Route>
         </SID>
-        <SID Airport="HAAB" Name="OKNE1B" Runway="25L">
+        <SID Airport="HAAB" Name="OKNE1B" Runways="25L">
           <Route Runway="25L">AB210/AB211/BENDO/OKNET</Route>
         </SID>
-        <SID Airport="HAAB" Name="USUB1B" Runway="25L">
+        <SID Airport="HAAB" Name="USUB1B" Runways="25L">
           <Route Runway="25L">AB210/AB211/AB212/AB215/USUBA</Route>
         </SID>
-        <SID Airport="HAAB" Name="BRO4A" Runway="07L">
+        <SID Airport="HAAB" Name="BRO4A" Runways="07L">
           <Route Runway="07L">AB801/AB803/AB805/BRO</Route>
         </SID>
-        <SID Airport="HAAB" Name="DAVI3A" Runway="07L">
+        <SID Airport="HAAB" Name="DAVI3A" Runways="07L">
           <Route Runway="07L">AB801/AB802/LABLA/DAVIT</Route>
         </SID>
-        <SID Airport="HAAB" Name="DAVI4A" Runway="07L">
+        <SID Airport="HAAB" Name="DAVI4A" Runways="07L">
           <Route Runway="07L">AB906/AB910/LABLA/DAVIT</Route>
         </SID>
-        <SID Airport="HAAB" Name="EGNA4A" Runway="07L">
+        <SID Airport="HAAB" Name="EGNA4A" Runways="07L">
           <Route Runway="07L">GWZ/EGNAK</Route>
         </SID>
-        <SID Airport="HAAB" Name="EKBO2A" Runway="07L">
+        <SID Airport="HAAB" Name="EKBO2A" Runways="07L">
           <Route Runway="07L">AB904/AB905/AB909/EKBOB</Route>
         </SID>
-        <SID Airport="HAAB" Name="ETGO2A" Runway="07L">
+        <SID Airport="HAAB" Name="ETGO2A" Runways="07L">
           <Route Runway="07L">AB801/AB804/SHALA/ETGOM</Route>
         </SID>
-        <SID Airport="HAAB" Name="GUDE4A" Runway="07L">
+        <SID Airport="HAAB" Name="GUDE4A" Runways="07L">
           <Route Runway="07L">GWZ/GUDER</Route>
         </SID>
-        <SID Airport="HAAB" Name="IMKI1A" Runway="07L">
+        <SID Airport="HAAB" Name="IMKI1A" Runways="07L">
           <Route Runway="07L">AB801/AB804/DEGAG/IMKIT</Route>
         </SID>
-        <SID Airport="HAAB" Name="IMTO3A" Runway="07L">
+        <SID Airport="HAAB" Name="IMTO3A" Runways="07L">
           <Route Runway="07L">AB801/AB803/AB805/AB808/AB809/IMTOR</Route>
         </SID>
-        <SID Airport="HAAB" Name="KOFT4A" Runway="07L">
+        <SID Airport="HAAB" Name="KOFT4A" Runways="07L">
           <Route Runway="07L">GWZ/KOFTA</Route>
         </SID>
-        <SID Airport="HAAB" Name="LABL4A" Runway="07L">
+        <SID Airport="HAAB" Name="LABL4A" Runways="07L">
           <Route Runway="07L">AB801/AB802/LABLA</Route>
         </SID>
-        <SID Airport="HAAB" Name="LABL5A" Runway="07L">
+        <SID Airport="HAAB" Name="LABL5A" Runways="07L">
           <Route Runway="07L">AB906/AB910/LABLA</Route>
         </SID>
-        <SID Airport="HAAB" Name="MIWA3A" Runway="07L">
+        <SID Airport="HAAB" Name="MIWA3A" Runways="07L">
           <Route Runway="07L">AB901/MIWAS</Route>
         </SID>
-        <SID Airport="HAAB" Name="NIDE2A" Runway="07L">
+        <SID Airport="HAAB" Name="NIDE2A" Runways="07L">
           <Route Runway="07L">AB903/AB908/NIDEG</Route>
         </SID>
-        <SID Airport="HAAB" Name="SHAL3A" Runway="07L">
+        <SID Airport="HAAB" Name="SHAL3A" Runways="07L">
           <Route Runway="07L">AB801/AB804/SHALA</Route>
         </SID>
-        <SID Airport="HAAB" Name="USUB3A" Runway="07L">
+        <SID Airport="HAAB" Name="USUB3A" Runways="07L">
           <Route Runway="07L">AB801/AB803/AB805/AB806/USUBA</Route>
         </SID>
-        <SID Airport="HAAB" Name="USUB4A" Runway="07L">
+        <SID Airport="HAAB" Name="USUB4A" Runways="07L">
           <Route Runway="07L">AB801/AB803/AB805/AB807/USUBA</Route>
         </SID>
-        <SID Airport="HAAB" Name="AMUD2B" Runway="25R">
+        <SID Airport="HAAB" Name="AMUD2B" Runways="25R">
           <Route Runway="25R">APRAL/AB211/AB212/AB216/AB217/MARCO/AMUDO</Route>
         </SID>
-        <SID Airport="HAAB" Name="BEND3B" Runway="25R">
+        <SID Airport="HAAB" Name="BEND3B" Runways="25R">
           <Route Runway="25R">APRAL/AB211/BENDO</Route>
         </SID>
-        <SID Airport="HAAB" Name="BRO4B" Runway="25R">
+        <SID Airport="HAAB" Name="BRO4B" Runways="25R">
           <Route Runway="25R">APRAL/AB211/AB213/AB214/BRO</Route>
         </SID>
-        <SID Airport="HAAB" Name="DAVI2B" Runway="25R">
+        <SID Airport="HAAB" Name="DAVI2B" Runways="25R">
           <Route Runway="25R">APRAL/AB211/AB212/AB216/AB217/DAVIT</Route>
         </SID>
-        <SID Airport="HAAB" Name="EKBO2B" Runway="25R">
+        <SID Airport="HAAB" Name="EKBO2B" Runways="25R">
           <Route Runway="25R">AB310/AB370/AB380/EKBOB</Route>
         </SID>
-        <SID Airport="HAAB" Name="IMKI4B" Runway="25R">
+        <SID Airport="HAAB" Name="IMKI4B" Runways="25R">
           <Route Runway="25R">APRAL/AB211/BENDO/IMKIT</Route>
         </SID>
-        <SID Airport="HAAB" Name="KOFT4B" Runway="25R">
+        <SID Airport="HAAB" Name="KOFT4B" Runways="25R">
           <Route Runway="25R">APRAL/AB211/AB213/KOFTA</Route>
         </SID>
-        <SID Airport="HAAB" Name="MAGO3B" Runway="25R">
+        <SID Airport="HAAB" Name="MAGO3B" Runways="25R">
           <Route Runway="25R">AB310/AB320/AB340/AB360/MAGON</Route>
         </SID>
-        <SID Airport="HAAB" Name="NIDE3B" Runway="25R">
+        <SID Airport="HAAB" Name="NIDE3B" Runways="25R">
           <Route Runway="25R">AB310/AB320/AB330/AB350/NIDEG</Route>
         </SID>
-        <SID Airport="HAAB" Name="OKNE2B" Runway="25R">
+        <SID Airport="HAAB" Name="OKNE2B" Runways="25R">
           <Route Runway="25R">APRAL/AB211/BENDO/OKNET</Route>
         </SID>
-        <SID Airport="HAAB" Name="USUB2B" Runway="25R">
+        <SID Airport="HAAB" Name="USUB2B" Runways="25R">
           <Route Runway="25R">APRAL/AB211/AB212/AB215/USUBA</Route>
         </SID>
     </SIDSTARs>
