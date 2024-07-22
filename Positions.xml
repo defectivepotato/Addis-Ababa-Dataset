@@ -46,7 +46,7 @@
     </ControllerInfo>
   </Position>
   <Group Name="TMA positions">
-  <Position Name="Bole Approach" Type="ASD" DefaultCenter="+08.975042+038.799400" DefaultRange="300" VisibilityRange="150">
+  <Position Name="Bole Approach" Type="ASD" DefaultCenter="+08.975042+038.799400" DefaultRange="300" MagneticVariation="2" VisibilityRange="150">
     <Sectors>
       <Sector Name="ABA"/>
     </Sectors>
