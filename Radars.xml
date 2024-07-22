@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Radars>
 <!-- Primary Radars-->
-  <Radar Name="Bole PRI" Type="PRI" Elevation="7700" MaxRange="60">
-    <Lat>08.106667</Lat>
-    <Long>+038.770000</Long>
+  <Radar Name="Bole PRI" Type="PRI" Elevation="9967" MaxRange="60">
+    <Lat>09.106203</Lat>
+    <Long>+038.769919</Long>
   </Radar>
   <Radar Name="Djibouti PRI" Type="PRI" Elevation="49" MaxRange="60">
     <Lat>11.550000</Lat>
     <Long>+043.155000</Long>
   </Radar>
 <!-- SSR Radars-->
-    <Radar Name="Bole SSR" Type="SSR_ModeS" Elevation="7700" MaxRange="200">
-    <Lat>08.106667</Lat>
-    <Long>+038.770000</Long>
+    <Radar Name="Bole SSR" Type="SSR_ModeC" Elevation="9967" MaxRange="200">
+    <Lat>09.106203</Lat>
+    <Long>+038.769919</Long>
   </Radar>
-  <Radar Name="Djibouti SSR" Type="SSR_ModeS" Elevation="49" MaxRange="200">
+  <Radar Name="Djibouti SSR" Type="SSR_ModeC" Elevation="49" MaxRange="200">
     <Lat>11.550000</Lat>
     <Long>+043.155000</Long>
   </Radar>
-  <Radar Name="Gambella SSR" Type="SSR_ModeC" Elevation="1790" MaxRange="250">
+  <Radar Name="Gambella" Type="ADSB" Elevation="1790" MaxRange="250">
     <Lat>08.117333</Lat>
     <Long>+034.563333</Long>
   </Radar>
-  <Radar Name="Kebri Dehar SSR" Type="SSR_ModeC" Elevation="1800" MaxRange="250">
+  <Radar Name="Kebri Dehar ADSB" Type="ADSB" Elevation="1800" MaxRange="250">
     <Lat>06.733944</Lat>
     <Long>+044.207778</Long>
   </Radar>
-  <Radar Name="Soddo SSR" Type="SSR_ModeC" Elevation="6400" MaxRange="250">
+  <Radar Name="Soddo ADSB" Type="ADSB" Elevation="6400" MaxRange="250">
     <Lat>06.833333</Lat>
     <Long>+037.766667</Long>
   </Radar>
-  <Radar Name="Axum SSR" Type="SSR_ModeC" Elevation="6960" MaxRange="250">
+  <Radar Name="Axum ADSB" Type="ADSB" Elevation="6960" MaxRange="250">
     <Lat>14.146667</Lat>
     <Long>+038.776667</Long>
   </Radar>
@@ -65,34 +65,34 @@
   </Radar>
 <!--Neighboring FIR Radars-->
 <!--HKNA-->
-  <Radar Name="Wajir" Type="SSR_ModeS" Elevation="830" MaxRange="250">
+  <Radar Name="Wajir" Type="ADSB" Elevation="830" MaxRange="250">
     <Lat>01.727925</Lat>
     <Long>+040.089625</Long>
   </Radar>
-  <Radar Name="Poror" Type="SSR_ModeS" Elevation="8430" MaxRange="250">
+  <Radar Name="Poror" Type="ADS" Elevation="8430" MaxRange="250">
     <Lat>01.236333</Lat>
     <Long>+036.614750</Long>
   </Radar>
 <!--HSSS-->
-  <Radar Name="Damazin MSSR" Type="SSR_ModeC" Elevation="1198" MaxRange="255">
+  <Radar Name="Damazin" Type="SSR_ModeC" Elevation="1198" MaxRange="250">
     <Lat>11.338222</Lat>
     <Long>+034.338306</Long>
   </Radar>
-  <Radar Name="Juba ADSB" Type="ADSB" Elevation="1511" Maxrange="255">
+  <Radar Name="Juba" Type="ADSB" Elevation="1511" Maxrange="250">
     <Lat>04.872000</Lat>
     <Long>+031.601167</Long>
   </Radar>
 <!--HHAA-->
-  <Radar Name="Asmara MSSR" Type="SSR_ModeC" Elevation="7661" MaxRange="256">
+  <Radar Name="Asmara MSSR" Type="SSR_ModeC" Elevation="7661" MaxRange="200">
     <Lat>15.286389</Lat>
     <Long>+038.900000</Long>
   </Radar>
-  <Radar Name="Assab MSSR" Type="SSR_ModeC" Elevation="46" MaxRange="200">
+  <Radar Name="Assab ADSB" Type="ADSB" Elevation="46" MaxRange="250">
     <Lat>13.066667</Lat>
     <Long>+042.633333</Long>
   </Radar>
 <!--HCSM-->
-  <Radar Name="Mogadishu ADSB" Type="ADSB" Elevation="9999" MaxRange="256">
+  <Radar Name="Mogadishu ADSB" Type="ADSB" Elevation="36" MaxRange="250">
     <Lat>02.019535</Lat>
     <Long>+045.303465</Long>
   </Radar>
