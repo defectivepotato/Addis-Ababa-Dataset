@@ -11,109 +11,109 @@
   <Sector Name="ABA" FullName="Bole Approach" Frequency="119.700" Callsign="HAAB_APP">
     <Volumes>HAAB_TMA</Volumes>
   </Sector>
-  <Sector Name="AB ADC" FullName="Bole Tower" Frequency="118.100" Callsign="HAAB_TWR">
+  <Sector Name="AB ADC" FullName="Bole Tower" Frequency="118.100" Callsign="HAAB_TWR" DisplayInHandoffWindow="False">
     <Volumes>HAAB_CTR</Volumes>
   </Sector>
-  <Sector Name="AB SMC" FullName="Bole Ground" Frequency="121.900" Callsign="HAAB_GND">
+  <Sector Name="AB SMC" FullName="Bole Ground" Frequency="121.900" Callsign="HAAB_GND" DisplayInHandoffWindow="False">
     <Volumes>HAAB_CTR</Volumes>
   </Sector>
-  <Sector Name="AX ADC" FullName="Axum Tower" Frequency="118.000" Callsign="HAAX_TWR">
+  <Sector Name="AX ADC" FullName="Axum Tower" Frequency="118.000" Callsign="HAAX_TWR" DisplayInHandoffWindow="False">
     <Volumes>HAAX_CTR</Volumes>
   </Sector>
-  <Sector Name="AX SMC" FullName="Axum Ground" Frequency="121.900" Callsign="HAAX_GND">
+  <Sector Name="AX SMC" FullName="Axum Ground" Frequency="121.900" Callsign="HAAX_GND" DisplayInHandoffWindow="False">
     <Volumes>HAAX_CTR</Volumes>
   </Sector>
   <Sector Name="BDA" FullName="Bahir Dar Approach" Frequency="118.300" Callsign="HABD_APP">
     <Volumes>HABD_TMA</Volumes>
   </Sector>
-  <Sector Name="BD ADC" FullName="Bahir Dar Tower" Frequency="118.300" Callsign="HABD_TWR">
+  <Sector Name="BD ADC" FullName="Bahir Dar Tower" Frequency="118.300" Callsign="HABD_TWR" DisplayInHandoffWindow="False">
     <Volumes>HABD_CTR</Volumes>
   </Sector>
-<Sector Name="DRA" FullName="Dire Dawa Approach" Frequency="120.300" Callsign="HADR_APP">
+<Sector Name="DRA" FullName="Dire Dawa Approach" Frequency="120.300" Callsign="HADR_APP" DisplayInHandoffWindow="False">
     <Volumes>HADR_TMA</Volumes>
   </Sector>
-  <Sector Name="DR ADC" FullName="Dire Dawa Tower" Frequency="118.300" Callsign="HADR_TWR">
+  <Sector Name="DR ADC" FullName="Dire Dawa Tower" Frequency="118.300" Callsign="HADR_TWR" DisplayInHandoffWindow="False">
     <Volumes>HADR_CTR</Volumes>
   </Sector>
-  <Sector Name="DR SMC" FullName="Dire Dawa Ground" Frequency="121.900" Callsign="HADR_GND">
+  <Sector Name="DR SMC" FullName="Dire Dawa Ground" Frequency="121.900" Callsign="HADR_GND" DisplayInHandoffWindow="False">
     <Volumes>HADR_CTR</Volumes>
   </Sector>
-  <Sector Name="GM ADC" FullName="Gambela Tower" Frequency="118.700" Callsign="HAGM_TWR">
+  <Sector Name="GM ADC" FullName="Gambela Tower" Frequency="118.700" Callsign="HAGM_TWR" DisplayInHandoffWindow="False">
     <Volumes>HAGM_CTR</Volumes>
   </Sector>
-  <Sector Name="GM SMC" FullName="Gambela Ground" Frequency="121.900" Callsign="HAGM_GND">
+  <Sector Name="GM SMC" FullName="Gambela Ground" Frequency="121.900" Callsign="HAGM_GND" DisplayInHandoffWindow="False">
     <Volumes>HAGM_CTR</Volumes>
   </Sector>
-  <Sector Name="GN ADC" FullName="Gonder Tower" Frequency="118.600" Callsign="HAGN_TWR">
+  <Sector Name="GN ADC" FullName="Gonder Tower" Frequency="118.600" Callsign="HAGN_TWR" DisplayInHandoffWindow="False">
     <Volumes>HAGN_CTR</Volumes>
   </Sector>
-  <Sector Name="GN SMC" FullName="Gonder Ground" Frequency="121.900" Callsign="HAGN_GND">
+  <Sector Name="GN SMC" FullName="Gonder Ground" Frequency="121.900" Callsign="HAGN_GND" DisplayInHandoffWindow="False">
     <Volumes>HAGN_CTR</Volumes>
   </Sector>
-  <Sector Name="GO ADC" FullName="Gode Tower" Frequency="118.600" Callsign="HAGO_TWR">
+  <Sector Name="GO ADC" FullName="Gode Tower" Frequency="118.600" Callsign="HAGO_TWR" DisplayInHandoffWindow="False">
     <Volumes>HAGO_CTR</Volumes>
   </Sector>
-  <Sector Name="GO SMC" FullName="Gode Ground" Frequency="121.900" Callsign="HAGO_GND">
+  <Sector Name="GO SMC" FullName="Gode Ground" Frequency="121.900" Callsign="HAGO_GND" DisplayInHandoffWindow="False">
     <Volumes>HAGO_CTR</Volumes>
   </Sector>
-  <Sector Name="JJ ADC" FullName="Jijga Tower" Frequency="118.500" Callsign="HAJJ_TWR">
+  <Sector Name="JJ ADC" FullName="Jijga Tower" Frequency="118.500" Callsign="HAJJ_TWR" DisplayInHandoffWindow="False">
     <Volumes>HAJJ_CTR</Volumes>
   </Sector>
-  <Sector Name="JJ SMC" FullName="Jija Ground" Frequency="121.900" Callsign="HAJJ_GND">
+  <Sector Name="JJ SMC" FullName="Jija Ground" Frequency="121.900" Callsign="HAJJ_GND" DisplayInHandoffWindow="False">
     <Volumes>HAJJ_CTR</Volumes>
   </Sector>
-  <Sector Name="JM ADC" FullName="Jimma Tower" Frequency="118.400" Callsign="HAJM_TWR">
+  <Sector Name="JM ADC" FullName="Jimma Tower" Frequency="118.400" Callsign="HAJM_TWR" DisplayInHandoffWindow="False">
     <Volumes>HAJM_CTR</Volumes>
   </Sector>
-  <Sector Name="LA ADC" FullName="Awasa Tower" Frequency="118.700" Callsign="HALA_TWR">
+  <Sector Name="LA ADC" FullName="Awasa Tower" Frequency="118.700" Callsign="HALA_TWR" DisplayInHandoffWindow="False">
     <Volumes>HALA_CTR</Volumes>
   </Sector>
-  <Sector Name="LA SMC" FullName="Awasa Ground" Frequency="121.900" Callsign="HALA_GND">
+  <Sector Name="LA SMC" FullName="Awasa Ground" Frequency="121.900" Callsign="HALA_GND" DisplayInHandoffWindow="False">
     <Volumes>HALA_CTR</Volumes>
   </Sector>
   <Sector Name="MKA" FullName="Mekele Approach" Frequency="118.500" Callsign="HAMK_APP">
     <Volumes>HAMK_TMA</Volumes>
   </Sector>
-  <Sector Name="MK ADC" FullName="Mekele Tower" Frequency="118.800" Callsign="HAMK_TWR">
+  <Sector Name="MK ADC" FullName="Mekele Tower" Frequency="118.800" Callsign="HAMK_TWR" DisplayInHandoffWindow="False">
     <Volumes>HAMK_CTR</Volumes>
   </Sector>
-  <Sector Name="MK SMC" FullName="Mekela Ground" Frequency="121.900" Callsign="HAMK_GND">
+  <Sector Name="MK SMC" FullName="Mekela Ground" Frequency="121.900" Callsign="HAMK_GND" DisplayInHandoffWindow="False">
     <Volumes>HAMK_CTR</Volumes>
   </Sector>
-  <Sector Name="SO ADC" FullName="Asosa Tower" Frequency="118.500" Callsign="HASO_TWR">
+  <Sector Name="SO ADC" FullName="Asosa Tower" Frequency="118.500" Callsign="HASO_TWR" DisplayInHandoffWindow="False">
     <Volumes>HASO_CTR</Volumes>
   </Sector>
-  <Sector Name="SO SMC" FullName="Asosa Ground" Frequency="121.900" Callsign="HASO_GND">
+  <Sector Name="SO SMC" FullName="Asosa Ground" Frequency="121.900" Callsign="HASO_GND" DisplayInHandoffWindow="False">
     <Volumes>HASO_CTR</Volumes>
   </Sector>
   <Sector Name="DAMA" FullName="Djibouti Approach" Frequency="118.500" Callsign="HDAM_APP">
     <Volumes>HDAM_TMA</Volumes>
   </Sector>
-  <Sector Name="DAM ADC" FullName="Djibouti Tower" Frequency="122.100" Callsign="HDAM_TWR">
+  <Sector Name="DAM ADC" FullName="Djibouti Tower" Frequency="122.100" Callsign="HDAM_TWR" DisplayInHandoffWindow="False">
     <Volumes>HDAM_CTR</Volumes>
   </Sector>
-  <Sector Name="DAM SMC" FullName="Djibouti Ground" Frequency="118.100" Callsign="HDAM_GND">
+  <Sector Name="DAM SMC" FullName="Djibouti Ground" Frequency="118.100" Callsign="HDAM_GND" DisplayInHandoffWindow="False">
     <Volumes>HDAM_CTR</Volumes>
   </Sector>
 
   <!-- Sectors for handoff (!!YET TO BE COMPLETED!!)-->
-  <Sector FullName="Africa Central Control" Frequency="129.075" Callsign="AFRC_FSS" Name="AFRC"/>
-  <Sector FullName="Africa East Control" Frequency="135.050" Callsign="AFRE_FSS" Name="AFRE"/>
-  <Sector FullName="Africa North Control" Frequency="134.520" Callsign="AFRN_FSS" Name="AFRN"/>
-  <Sector FullName="Africa South Control" Frequency="134.575" Callsign="AFRS_FSS" Name="AFRS"/>
-  <Sector FullName="Africa West Control" Frequency="132.225" Callsign="AFRW_FSS" Name="AFRW"/>
-  <Sector FullName="Gulf Control" Frequency="133.650" Callsign="GULF_FSS" Name="GULF"/>
-  <Sector FullName="Gulf West Control" Frequency="133.500" Callsign="GULF_W_FSS" Name="GULFW"/>
-  <Sector Fullname="Mogadishu Control" Frequency="132.500" Callsign="HCSM_CTR" Name="HCSM"/>
-  <Sector Fullname="Mogadishu Information" Frequency="132.525" Callsign="HCSM_I_CTR" Name="HCSMI"/>
-  <Sector Fullname="Asmara Center" Frequency="129.500" Callsign="HHAA_CTR" Name="HHAA"/>
-  <Sector Fullname="Asmara Approach" Frequency="120.700" Callsign="HHAS_APP" Name="HHASA"/>
-  <Sector Fullname="Assab Approach" Frequency="129.50" Callsign="HHSB_APP" Name="HHSBA"/>
-  <Sector Fullname="Juba Control" Frequency="123.900" Callsign="HJJJ_1_CTR" Name="HJJJ"/>
-  <Sector Fullname="Nairobi Control" Frequency="121.300" Callsign="HKNA_CTR" Name="HKNA"/>
-  <Sector FullName="Khartoum Center" Frequency="127.300" Callsign="HSSS_1X_CTR" Name="KC1X"/>
-  <Sector FullName="Khartoum Center" Frequency="125.400" Callsign="HSSS_1_CTR" Name="KC1"/>
-  <Sector FullName="Khartoum Center" Frequency="125.700" Callsign="HSSS_2_CTR" Name="KC2"/>
-  <Sector FullName="Entebbe Control" Frequency="128.500" Callsign="HUEC_CTR" Name="HUEC"/>
-  <Sector FullName="Sanaa Radio" Frequency="120.100" Callsign="AYNZ_APP" Name="OYSC"/>
+  <Sector FullName="Africa Central Control" Frequency="129.075" Callsign="AFRC_FSS" Name="AFRC" DisplayInSectorsWindow="False"/>
+  <Sector FullName="Africa East Control" Frequency="135.050" Callsign="AFRE_FSS" Name="AFRE" DisplayInSectorsWindow="False"/>
+  <Sector FullName="Africa North Control" Frequency="134.520" Callsign="AFRN_FSS" Name="AFRN" DisplayInSectorsWindow="False"/>
+  <Sector FullName="Africa South Control" Frequency="134.575" Callsign="AFRS_FSS" Name="AFRS" DisplayInSectorsWindow="False"/>
+  <Sector FullName="Africa West Control" Frequency="132.225" Callsign="AFRW_FSS" Name="AFRW" DisplayInSectorsWindow="False"/>
+  <Sector FullName="Gulf Control" Frequency="133.650" Callsign="GULF_FSS" Name="GULF" DisplayInSectorsWindow="False"/>
+  <Sector FullName="Gulf West Control" Frequency="133.500" Callsign="GULF_W_FSS" Name="GULFW" DisplayInSectorsWindow="False"/>
+  <Sector Fullname="Mogadishu Control" Frequency="132.500" Callsign="HCSM_CTR" Name="HCSM" DisplayInSectorsWindow="False"/>
+  <Sector Fullname="Mogadishu Information" Frequency="132.525" Callsign="HCSM_I_CTR" Name="HCSMI" DisplayInSectorsWindow="False"/>
+  <Sector Fullname="Asmara Center" Frequency="129.500" Callsign="HHAA_CTR" Name="HHAA" DisplayInSectorsWindow="False"/>
+  <Sector Fullname="Asmara Approach" Frequency="120.700" Callsign="HHAS_APP" Name="HHASA" DisplayInSectorsWindow="False"/>
+  <Sector Fullname="Assab Approach" Frequency="129.50" Callsign="HHSB_APP" Name="HHSBA" DisplayInSectorsWindow="False"/>
+  <Sector Fullname="Juba Control" Frequency="123.900" Callsign="HJJJ_1_CTR" Name="HJJJ" DisplayInSectorsWindow="False"/>
+  <Sector Fullname="Nairobi Control" Frequency="121.300" Callsign="HKNA_CTR" Name="HKNA" DisplayInSectorsWindow="False"/>
+  <Sector FullName="Khartoum Center" Frequency="127.300" Callsign="HSSS_1X_CTR" Name="KC1X" DisplayInSectorsWindow="False"/>
+  <Sector FullName="Khartoum Center" Frequency="125.400" Callsign="HSSS_1_CTR" Name="KC1" DisplayInSectorsWindow="False"/>
+  <Sector FullName="Khartoum Center" Frequency="125.700" Callsign="HSSS_2_CTR" Name="KC2" DisplayInSectorsWindow="False"/>
+  <Sector FullName="Entebbe Control" Frequency="128.500" Callsign="HUEC_CTR" Name="HUEC" DisplayInSectorsWindow="False"/>
+  <Sector FullName="Sanaa Radio" Frequency="120.100" Callsign="AYNZ_APP" Name="OYSC" DisplayInSectorsWindow="False"/>
 </Sectors>
