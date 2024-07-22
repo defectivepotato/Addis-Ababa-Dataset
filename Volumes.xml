@@ -2848,6 +2848,29 @@
 +11.450556+043.111945/
 +11.450556+043.111945/
 +11.452500+043.105278</Boundary>
+<Boundary Name="HSSS_South1">+10.776111+032.183611/
++10.548317+034.535217/
++12.916667+036.000000/
++14.420695+036.515824/
++14.666667+036.600556/
++14.664722+036.580556/
++14.429722+034.125556/
++10.776111+032.183611</Boundary>
+<Boundary Name="HSSS_South2">+04.000000+030.750000/
++10.776111+032.183611/
++10.548317+034.535217/
++08.000000+033.000000/
++05.634246+034.825000/
++04.000000+036.083333/
++04.000000+030.750000</Boundary>
+<Boundary Name="HJJJ">+04.000000+030.750000/
++10.776111+032.183611/
++10.548317+034.535217/
++08.000000+033.000000/
++05.634246+034.825000/
++04.000000+036.083333/
++04.000000+030.750000</Boundary>
+
 
   <Volume Name="HAAA_W" LowerLimit="0" UpperLimit="60000">
     <Boundaries>HAAA_W</Boundaries>
@@ -2908,5 +2931,14 @@
   </Volume>
   <Volume Name="HDAM_CTR" LowerLimit="0" UpperLimit="1800">
     <Boundaries>HDAM_CTR</Boundaries>
+  </Volume>
+  <Volume Name="HSSS_South" LowerLimit="0" UpperLimit="66000">
+    <Boundaries>HSSS_South1</Boundaries>
+  </Volume>
+  <Volume Name="HSSS_South" LowerLimit="24500" UpperLimit="66000">
+    <Boundaries>HSSS_South2</Boundaries>
+  </Volume>
+  <Volume Name="HJJJ" LowerLimit="0" UpperLimit="24500">
+    <Boundaries>HJJJ</Boundaries>
   </Volume>
 </Volumes>
