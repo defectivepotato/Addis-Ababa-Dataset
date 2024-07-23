@@ -16,8 +16,7 @@
         <Point>+07.916295+044.533680</Point>
     </ManualVisibility>
     <Maps>
-      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
-      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+      <Map Name="ALL_NAVAIDS"/>
       <Map Name="ALL_CTA"/>
       <Map Name="ALL_COAST"/>
     </Maps>
@@ -51,10 +50,10 @@
       <Sector Name="ABA"/>
     </Sectors>
     <Maps>
-      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
-      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+      <Map Name="ALL_NAVAIDS"/>
       <Map Name="ALL_CTA"/>
       <Map Name="ALL_COAST"/>
+      <Map Name="Bole/HAAB_RWY07R"/>
     </Maps>
     <ATIS>
         <Editor Airport="HAAB" Frequency="128.8" />
@@ -83,8 +82,7 @@
       <Sector Name="BDA"/>
     </Sectors>
     <Maps>
-      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
-      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+      <Map Name="ALL_NAVAIDS"/>
       <Map Name="ALL_CTA"/>
       <Map Name="ALL_COAST"/>
     </Maps>
@@ -107,8 +105,7 @@
       <Sector Name="DAMA"/>
     </Sectors>
     <Maps>
-      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
-      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+      <Map Name="ALL_NAVAIDS"/>
       <Map Name="ALL_CTA"/>
       <Map Name="ALL_COAST"/>
     </Maps>
@@ -142,8 +139,7 @@
         <Editor Airport="HAAB" Frequency="128.8" />
         <Window Airport="HAAB" />
       </ATIS>
-      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
-      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+      <Map Name="ALL_NAVAIDS"/>
     </Maps>
     <Strips Mode="Beacon" Sort="Alpha">
       <Window Type="ADEP" Beacon="HAAB" Visible="true"/>
@@ -167,8 +163,7 @@
       <Sector Name="AX SMC"/>
     </Sectors>
     <Maps>
-      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
-      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+      <Map Name="ALL_NAVAIDS"/>
     </Maps>
     <Strips Mode="Beacon" Sort="Alpha">
       <Window Type="ADEP" Beacon="HAAX" Visible="true"/>
@@ -192,8 +187,7 @@
       <Sector Name="BD SMC"/>
     </Sectors>
     <Maps>
-      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
-      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+      <Map Name="ALL_NAVAIDS"/>
     </Maps>
     <Strips Mode="Beacon" Sort="Alpha">
       <Window Type="ADEP" Beacon="HABD" Visible="true"/>
@@ -213,8 +207,7 @@
       <Sector Name="DAM SMC"/>
     </Sectors>
     <Maps>
-      <Map Name="NAVAIDS/NDB_SYMBOLS"/>
-      <Map Name="NAVAIDS/VOR_SYMBOLS"/>
+      <Map Name="ALL_NAVAIDS"/>
     </Maps>
     <ATIS>
         <Editor Airport="HDAM" Frequency="126.4" />
