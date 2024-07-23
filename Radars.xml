@@ -88,7 +88,7 @@
     <Lat>15.286389</Lat>
     <Long>+038.900000</Long>
   </Radar>
-  <Radar Name="Assab ADSB" Type="SSR_ModeC" Elevation="46" MaxRange="250">
+  <Radar Name="Assab ADSB" Type="ADSB" Elevation="46" MaxRange="250">
     <Lat>13.066667</Lat>
     <Long>+042.633333</Long>
   </Radar>

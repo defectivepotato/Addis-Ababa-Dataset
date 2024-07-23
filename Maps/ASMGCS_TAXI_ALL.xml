@@ -2,6 +2,7 @@
 <Maps>
   <Map Type="Ground_INF" Name="ASMGCS_TAXI_ALL" Priority="0" Center="-2380.8+13390.1">
     <Label HasLeader="False" Alignment="Center" VerticalAlignment="Middle">
+        <!-- HAAA TWY -->
         <Point Name="A1">+08.975355+038.782549</Point>
         <Point Name="B1">+08.976646+038.788249</Point>
         <Point Name="C1">+08.979841+038.798237</Point>
@@ -17,6 +18,37 @@
         <Point Name="B">+08.975036+038.789747</Point>
         <Point Name="M">+08.973940+038.785849</Point>
         <Point Name="A">+08.973490+038.783189</Point>
+        <!-- HAAA Aprons -->
+        <Point Name="CARGO APRON">+08.980473+038.780350</Point>
+        <Point Name="ET MAINTENANCE APRON">+08.983235+038.784708</Point>
+        <Point Name="PASSENGER TERMINAL">+08.984378+038.793457</Point>
+        <Point Name="GENERAL AVIATION">+08.985899+038.810801</Point>
+        <!-- HDAM TWY -->
+        <Point Name="A">+11.546345+043.145778</Point>
+        <Point Name="B">+11.546687+043.147655</Point>
+        <Point Name="D">+11.546615+043.151091</Point>
+        <Point Name="H">+11.546455+043.165543</Point>
+        <Point Name="N">+11.546307+043.173258</Point>
+        <Point Name="E">+11.545923+043.169403</Point>
+        <Point Name="E">+11.546045+043.158760</Point>
+        <Point Name="E">+11.546052+043.149226</Point>
+        <Point Name="F">+11.548142+043.164469</Point>
+        <Point Name="K">+11.548914+043.151793</Point>
+        <Point Name="F">+11.549702+043.154845</Point>
+        <Point Name="F">+11.549733+043.148372</Point>
+        <Point Name="F">+11.549655+043.161195</Point>
+        <Point Name="F">+11.549702+043.154845</Point>
+        <Point Name="L">+11.548870+043.146306</Point>
+        <Point Name="M">+11.550754+043.146545</Point>
+        <!-- HDAM Aprons -->
+        <Point Name="ARM/DEARM">+11.545091+043.174820</Point>
+        <Point Name="Apron">+11.543101+043.176338</Point>
+        <Point Name="Apron">+11.540304+043.172257</Point>
+        <Point Name="Apron G">+11.551694+043.149660</Point>
+        <Point Name="Terminal">+11.552131+043.149660</Point>
+        <Point Name="Apron J">+11.552064+043.152104</Point>
+        <Point Name="Apron C">+11.550198+043.151145</Point>
+        <Point Name="Apron W">+11.550236+043.145413</Point>
     </Label>
   </Map>
 </Maps>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Name="RNP_Z_25L" Type="System2" Pattern="Solid" Priority="0" Center="+08.975042+038.799400">
+    <Label HasLeader="true">
+      <Point>AB112</Point>
+      <Point>AB113</Point>
+      <Point>AB114</Point>
+      <Point>AB115</Point>
+      <Point>AB111</Point>
+      <Point>AB110</Point>
+      <Point>ARONA</Point>
+    </Label>
+    <Symbol Type="HollowTriangle">
+      <Point>AB112</Point>
+      <Point>AB111</Point>
+      <Point>AB110</Point>
+    </Symbol>
+     <Symbol Type="MalteseCross">
+      <Point>AB114</Point>
+      <Point>AB115</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>AB113</Point>
+    </Symbol>
+    <Line>AB112/AB113/AB114/AB115/+08.981072+038.813531</Line>
+    <Line>AB111/AB113</Line>
+    <Line>AB110/AB113</Line>
+  </Map>
+</Maps>

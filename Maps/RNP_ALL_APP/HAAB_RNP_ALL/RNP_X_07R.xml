@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Name="RNP_X_APP" Type="System2" Pattern="Solid" Priority="0" Center="+08.975042+038.799400">
+  <Map Name="RNP_X_07R" Type="System2" Pattern="Solid" Priority="0" Center="+08.975042+038.799400">
     <Label HasLeader="true">
       <Point>UTRIX</Point>
       <Point>UTOXO</Point>

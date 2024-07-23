@@ -19,6 +19,7 @@
       <Map Name="ALL_NAVAIDS"/>
       <Map Name="ALL_CTA"/>
       <Map Name="ALL_COAST"/>
+      <Map Name="ALL_ROUTE_HIGH"/>
     </Maps>
     <ATIS>
         <Editor Airport="HAAB" Frequency="128.8" />
@@ -237,6 +238,13 @@
       <Map Name="Bole/HAAB_RWYS"/>
       <Map Name="Bole/HAAB_TWYS"/>
       <Map Name="Bole/HAAB_BLDS"/>
+    </Maps>
+  </Position>
+  <Position Name="HDAM" Type="ASMGCS" ASMGCSAirport="HDAM" DefaultCenter="+11.547222+043.159444" DefaultRange="3" Rotation="359">
+    <Maps>
+      <Map Name="Djibouti/HDAM_RWYS"/>
+      <Map Name="Djibouti/HDAM_TWYS"/>
+      <Map Name="Djibouti/HDAM_BLDS"/>
     </Maps>
   </Position>
 </Positions>

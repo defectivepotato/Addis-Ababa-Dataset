@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Maps>
-    <Map Name="ALL_AIRPORTS" Priority="0" Type="System">
+    <Map Name="ALL_AIRPORTS" Priority="0" Type="System2">
         <Symbol Type="HollowSquare">
             <Point>HAAB</Point>
             <Point>HAAM</Point>
@@ -31,8 +31,6 @@
             <Point>HKLG</Point>
             <Point>HKMA</Point>
         </Symbol>
-    </Map>
-    <Map Name="ALL_AIRPORTS_NAMES" Priority="0" Type="System">
         <Label hasLeader="true">
             <Point Name="HAAB">HAAB</Point>
             <Point Name="HAAM">HAAM</Point>
