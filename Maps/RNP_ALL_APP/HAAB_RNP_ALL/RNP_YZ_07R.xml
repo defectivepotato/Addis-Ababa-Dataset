@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Name="RNP_YZ_07R" Type="System2" Pattern="Solid" Priority="0" Center="+08.975042+038.799400">
+    <Label HasLeader="true">
+      <Point>KALTY</Point>
+      <Point>AB222</Point>
+      <Point>SENBO</Point>
+      <Point>DERTU</Point>
+      <Point>HURBU</Point>
+      <Point>EGSUT</Point>
+      <Point>ARONA</Point>
+      <Point>SAMOL</Point>
+      <Point>AWASH</Point>
+    </Label>
+    <Symbol Type="HollowTriangle">
+      <Point>KALTY</Point>
+      <Point>ARONA</Point>
+      <Point>AWASH</Point>
+    </Symbol>
+     <Symbol Type="MalteseCross">
+      <Point>DERTU</Point>
+      <Point>HURBU</Point>
+      <Point>EGSUT</Point>
+      <Point>AB222</Point>
+      <Point>SAMOL</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>SENBO</Point>
+    </Symbol>
+    <Line>KALTY/AB222/SENBO/DERTU/HURBU/EGSUT/+08.973236+038.786644</Line>
+    <Line>ARONA/SAMOL/SENBO</Line>
+    <Line>AWASH/SENBO</Line>
+  </Map>
+</Maps>
