@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Profile Name="Addis Ababa" FullName="Eurocat X Addis Ababa">
-  <Version AIRAC="2406" Revision="a" PublishDate="20220127" UpdateURL=""/>
+  <Version AIRAC="2406" Revision="a" PublishDate="20240723" UpdateURL=""/>
   <Servers>
     <VATSIMStatus url="https://status.vatsim.net/"/>
     <GRIB url="https://sawbe.com/GRIB/"/>
