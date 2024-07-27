@@ -1,13 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Messages>
   <Category name="QUICK_OPTIONS">
     <Message Response="WU">CLIMB TO AND MAINTAIN [LEVEL]</Message>
+		<Message Response="WU">CLIMB VIA SID [LEVEL]</Message>
     <Message Response="WU">DESCEND TO AND MAINTAIN [LEVEL]</Message>
+		<Message Response="WU">DESCEND VIA STAR [LEVEL]</Message>
     <Message Response="WU">PROCEED DIRECT TO [POSITION]</Message>
     <Message Response="WU">MAINTAIN [SPEED] OR GREATER</Message>
     <Message Response="WU">MAINTAIN [SPEED] OR LESS</Message>
     <Message Response="WU">CONTACT [UNIT] [FREQUENCY]</Message>
-    <Message Response="R">REQUEST RECIEVED RESPONSE WILL BE VIA VOICE</Message>
+		<Message Response="R">IDENTIFIED [LEVEL] CONTINUE AS FILED</Message>
+		<Message Response="R">IDENTIFICATION SERVICE TERMINATED MONITOR UNICOM 122.800</Message>
   </Category>
   <Category name="Level">
     <Message Response="NE">WHEN CAN YOU ACCEPT [LEVEL]</Message>
@@ -126,12 +129,11 @@
   <Category name="PDC" AutoloadElements="true" SendViaTM="true">
     <Message Response="NE">PDC [TIMESTAMP]</Message>
     <Message Response="NE">[CALLSIGN] [ATYPE] [ADES] [ETD]</Message>
-    <Message Response="NE">CLEARED TO [ADES] VIA [SID] DEP [TEXT]</Message>
-    <Message Response="NE">ROUTE [ROUTE]</Message>
-    <Message Response="NE">CLIMB VIA SID TO [LEVEL]</Message>
-    <Message Response="NE">DEP FREQ [FREQUENCY]</Message>
+    <Message Response="NE">FILLED ROUTING [ROUTE]</Message>
+    <Message Response="NE">CLEARED TO [ADES] VIA [SID] DEP</Message>
+    <Message Response="NE">CLIMB VIA SID EXP [LEVEL] AFTER DEP</Message>
     <Message Response="NE">SQUAWK [SSR]</Message>
-	<Message Response="NE">PDC READBACK FREQ [FREQUENCY]</Message>
+		<Message Response="NE">PDC READBACK FREQ [FREQUENCY]</Message>
   </Category>
   <Category name="Speed">
     <Message Response="WU">MAINTAIN [SPEED]</Message>
@@ -167,8 +169,11 @@
     <Message Response="WU">STOP SQUAWK ALTITUDE</Message>
     <Message Response="WU">SQUAWK IDENT</Message>
     <Message Response="R">ALTIMETER [QNH]</Message>
+		<Message Response="R">IDENTIFIED</Messages>
+		<Message Response="R">IDENTIFIED [LEVEL] CONTINUE AS FILED</Message>
     <Message Response="R">IDENTIFICATION</Message>
     <Message Response="R">IDENTIFICATION TERMINATED</Message>
+		<Message Response="R">IDENTIFICATION SERVICE TERMINATED MONITOR UNICOM 122.800</Message>
     <Message Response="R">TRANSMIT ADS-B IDENT</Message>
     <Message Response="R">CONFIRM ADS-C EMERGENCY</Message>
     <Message Response="R">CHECK STUCK MICROPHONE [FREQUENCY]</Message>
